@@ -1,0 +1,48 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Error page style
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+body
+{
+  padding: 10px;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div.container
+{
+}
+
+div.icon
+{
+  float: left;
+  margin-left: 50px;
+}
+
+div.text
+{
+  margin-left: 450px;
+  padding-top: 30px;
+}
+
+div.text .header
+{
+  color: #a32121;
+  font-size: 22px;
+}
+
+div.text .message
+{
+}
+
+div.clear
+{
+  clear: both;
+}

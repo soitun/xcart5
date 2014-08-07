@@ -1,0 +1,12 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Update charset options for import/export
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - { name: export_import_charset, category: Units, type: 'XLite\View\FormField\Select\IconvCharset', orderby: 725, value: 'UTF-8', translations: [{ code: en, option_name: 'Import/export charset' }] }
+

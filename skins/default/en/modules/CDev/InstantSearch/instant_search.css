@@ -1,0 +1,194 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Search results menu stylesheet
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+/**
+ * General menu styling
+ */
+
+.instant-search-menu {
+  background: #eff8fe;
+  background: white;
+  position: absolute;
+  border: 1px solid silver;
+  border-radius: 3px;
+
+  box-shadow: 1px 1px 5px silver;
+  -webkit-box-shadow: 1px 1px 5px silver;
+  -moz-box-shadow: 1px 1px 5px silver;
+
+  z-index: 55000;
+}
+
+.instant-search-loader {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  z-index: 10;
+  background: url(ajax-loader.gif) no-repeat;
+}
+
+.instant-search-menu dl {
+  margin: 0;
+  padding: 10px 17px;
+  font-family: 'Trebuchet MS', Helvetica, Jamrul, sans-serif;
+}
+
+.instant-search-menu dt {
+  padding: 7px 0;
+}
+
+.instant-search-menu a {
+  text-decoration: none;
+  outline: none;
+}
+
+.instant-search-menu dt a {
+  font-size: 16px;
+  background-color: white;
+}
+
+.instant-search-menu dt a:hover {
+}
+
+.instant-search-menu .active-dt {
+  color: red;
+}
+
+.instant-search-menu dd {
+  display: none;
+  border: 1px solid #b1c9e0;
+  border-radius: 3px;
+  margin: 0 3px 3px 3px;
+  padding: 15px;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: -330px;
+  width: 300px;
+
+  box-shadow: 1px 1px 5px silver;
+  -webkit-box-shadow: 1px 1px 5px silver;
+  -moz-box-shadow: 1px 1px 5px silver;
+}
+
+.instant-search-menu dd .arrow {
+  position: absolute;
+  right: -7px;
+  top: 11px;
+  border-top: 1px solid #b1c9e0;
+  border-right: 1px solid #b1c9e0;
+  background: white;
+  width: 12px;
+  height: 12px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+
+.instant-search-menu .clearing {
+  clear: both;
+}
+
+.instant-search-menu .highlight-hit {
+  background-color: #cce8ff;
+}
+
+
+/**
+ * Product price styles 
+ */
+
+.instant-search-menu ul.product-price {
+  margin: 0 0 8px;
+}
+
+.instant-search-menu ul.product-price li {
+  list-style: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+.instant-search-menu span.product-price {
+  color: #ff6c00;
+}
+
+/**
+ * Quantity field
+ */
+
+.instant-search-menu .quantity {
+  width: 25px;
+  text-align: right;
+  margin-left: 8px;
+}
+
+/**
+ * Product image
+ */
+
+.instant-search-menu .product-image {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+/**
+ * Stock level information
+ */
+
+.instant-search-menu .stock-info {
+}
+
+.instant-search-menu .stock-info .product-in-stock {
+  font-weight: bold;
+  color: #019026;
+  font-size: 16px;
+}
+
+.instant-search-menu .stock-info .product-out-of-stock {
+  padding-left: 15px;
+  font-weight: bold;
+  color: #888;
+}
+
+.instant-search-menu .stock-info .product-items-available {
+  font-weight: normal;
+  color: #888;
+  font-size: 14px;
+}
+
+
+.instant-search-menu .add2cart {
+  margin-left: 8px;
+}
+
+.instant-search-menu .product-qty {
+  display: none;
+}
+
+.instant-search-menu span.product-price {
+  padding-left: 15px;
+}
+
+.instant-search-menu .shade-base {
+  float: left;
+  clear: left;
+}
+
+.instant-search-menu .product-added-note {
+  margin-top: 10px;
+}
+
+.instant-search-menu .shade-base button {
+  margin: 8px;
+}

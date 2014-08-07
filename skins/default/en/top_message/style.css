@@ -1,0 +1,110 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Top messages styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+
+#status-messages
+{
+  position: fixed;  /* TODO: WARNING! IE6 doesn't support this style! Emulation is required */
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+  z-index: 1300000;
+  font-size: 12px;
+  width: 400px;
+}
+
+#status-messages,
+#status-messages ul,
+#status-messages ul li:last-child
+{
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#status-messages a.close
+{
+  display: block;
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+  background: transparent none;
+  opacity: 1;
+  font-size: 12px;
+  line-height: normal;
+}
+
+#status-messages a.close img
+{
+  background: transparent url(../images/icon_cross_white.png) no-repeat left top;
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#status-messages ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+#status-messages li
+{
+  list-style: none;
+  background-image: none;
+  padding: 5px 31px 6px 1em;
+  margin: 0px;
+}
+
+#status-messages .status
+{
+}
+
+#status-messages,
+#status-messages a
+{
+  background-color: #eeede8;
+  color: #1b5d8e;
+}
+
+#status-messages .info,
+#status-messages .info a
+{
+  background-color: #bae8aa;
+  color: #374334;
+}
+
+#status-messages .warning,
+#status-messages .warning a
+{
+  background-color: #eedeb4;
+  color: #94572a;
+}
+
+#status-messages .error,
+#status-messages .error a
+{
+  background-color: #e65e57;
+  color: #fff;
+}
+
+#status-messages li em {
+  margin-right: 6px;
+}
+

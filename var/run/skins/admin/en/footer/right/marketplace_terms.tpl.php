@@ -1,0 +1,1 @@
+<?php if ($this->getTarget()=='addons_list_marketplace'||$this->getTarget()=='addons_list_installed'): ?><a  href="<?php echo func_htmlspecialchars($this->getXCartURL('http://www.x-cart.com/module-marketplace-terms-of-use.html')); ?>" target="_blank"><?php echo func_htmlspecialchars($this->t('Module Marketplace. Terms of use')); ?></a><?php endif; ?>

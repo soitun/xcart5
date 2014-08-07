@@ -1,0 +1,33 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Product quantity box
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+input[type="text"].quantity.wrong-amount
+{
+  border: 1px solid #e04013;
+}
+
+.product-max-qty
+{
+  display: none;
+  position: absolute;
+  margin: -90px 0 0 8px;
+  width: 79px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  z-index: 1000;
+  background: url(images/max_qty_box.png) no-repeat 8px 5px;
+}
+
+.product-quicklook .product-max-qty
+{
+  margin-top: -70px;
+}

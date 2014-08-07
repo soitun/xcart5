@@ -1,0 +1,137 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Product items list styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.items-list.products table.list thead th.price,
+.items-list.products table.list thead th.qty
+{
+  text-align: center;
+}
+
+.items-list.products table.list tbody td.price,
+.items-list.products table.list tbody td.qty
+{
+  text-align: right;
+}
+
+.items-list.products table.list tbody td.infinity .view {
+  font-family: Verdana;
+  font-size: 16px;
+}
+
+.items-list.products table.list thead th.sku {
+  width: 65px;
+}
+
+.items-list.products table.list td.sku .view {
+  width: 70px;
+}
+
+.items-list.products table.list thead th.name,
+.items-list.products table.list thead th.category {
+  width: 185px;
+}
+
+.items-list.products table.list td.name .view {
+  width: 302px;
+}
+
+.items-list.products table.list td.sku.no-wrap .plain-value,
+.items-list.products table.list td.name .plain-value,
+.items-list.products table.list td.category .plain-value {
+  position: relative;
+}
+
+.items-list.products table.list tbody.lines tr.line td.sku.no-wrap,
+.items-list.products table.list tbody.lines tr.line td.category,
+.items-list.products table.list tbody.lines tr.line td.name {
+  min-width: 0;
+  padding-right: 0;
+}
+
+.items-list.products table.list tbody.lines tr.line td.name div.cell {
+  width: 300px;
+}
+
+.items-list.products table.list tbody.lines tr.line td.category div.cell {
+  width: 200px;
+}
+
+.items-list.products table.list tbody.lines tr.line td.edit {
+  padding-left: 47px;
+  padding-right: 18px;
+}
+
+.items-list.products table.list td.sku.no-wrap .plain-value {
+  width: 92px;
+}
+
+.items-list.products table.list td.name .plain-value,
+.items-list.products table.list td.category .plain-value {
+  width: 100%;
+}
+
+.items-list.products table.list thead th.price {
+  width: 66px;
+  text-align: right;
+}
+
+.items-list.products table.list thead th.qty {
+  width: 39px;
+  text-align: right;
+}
+
+/* Search panel */
+
+.search-conditions-box label input {
+  margin-right: 3px;
+}
+
+.search-conditions-box span
+{
+  font-size: 14px;
+}
+
+
+.search-conditions-box .by_conditions-condition {
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.search-conditions-box .by_conditions-condition span {
+  float: left;
+  margin-right: 10px;
+}
+
+.search-conditions-box .by_conditions-condition ul li {
+  line-height: 25px;
+}
+
+.search-conditions-box .by_conditions-condition li label {
+  font-size: 12px;
+}
+
+.search-conditions-box .by_conditions-condition li label,
+.search-conditions-box .by_conditions-condition li input
+{
+  vertical-align: middle;
+}
+
+.search-conditions-box .by_conditions-condition ul {
+  float: left;
+}
+
+.search-conditions-box .substring-condition,
+.search-conditions-box .categoryId-condition,
+.search-conditions-box .inventory-condition
+{
+  width: 28%;
+}
+

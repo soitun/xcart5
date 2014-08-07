@@ -1,0 +1,913 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Demo store
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Profile:
+  - login: bit-bucket@example.com
+    password: 084e0343a0486ff05530df6c705c8bb4
+    anonymous: 1
+    cms_profile_id: 0
+    addresses:
+      - is_billing: true
+        is_shipping: true
+        state: { country_code: US, code: OK }
+        country: { code: US }
+        addressFields :
+          - addressField: { serviceName: title }
+            value : 'Mr.'
+          - addressField: { serviceName: firstname }
+            value: Guest
+          - addressField: { serviceName: lastname }
+            value: Guest
+          - addressField: { serviceName: phone }
+            value: '0123456789'
+          - addressField: { serviceName: street }
+            value: '51 apt, 87 street'
+          - addressField: { serviceName: city }
+            value: Edmond
+          - addressField: { serviceName: state_id }
+            value: 185
+          - addressField: { serviceName: country_code }
+            value: US
+          - addressField: { serviceName: zipcode }
+            value: '73003'
+
+XLite\Model\Order:
+  - profile:
+      login: bit-bucket@example.com
+      password: 084e0343a0486ff05530df6c705c8bb4
+      anonymous: 1
+      cms_profile_id: 0
+      addresses:
+        - is_billing: true
+          is_shipping: true
+          state: { country_code: US, code: OK }
+          country: { code: US }
+          addressFields :
+            - addressField: { serviceName: title }
+              value : 'Mr.'
+            - addressField: { serviceName: firstname }
+              value: Guest
+            - addressField: { serviceName: lastname }
+              value: Guest
+            - addressField: { serviceName: phone }
+              value: '0123456789'
+            - addressField: { serviceName: street }
+              value: '51 apt, 87 street'
+            - addressField: { serviceName: city }
+              value: Edmond
+            - addressField: { serviceName: state_id }
+              value: 185
+            - addressField: { serviceName: country_code }
+              value: US
+            - addressField: { serviceName: zipcode }
+              value: '73003'
+    orig_profile: { login: bit-bucket@example.com }
+    total: 611.38
+    subtotal: 662.5900
+    date: 1362469540
+    currency: { code: USD }
+    paymentStatus: { code: P }
+    shippingStatus: { code: D }
+    orderNumber: 1
+    payment_transactions: [{ payment_method: { service_name: MoneyOrdering }, method_name: MoneyOrdering, method_local_name: 'Money Ordering', status: S, value: 110.65, type: sale, note: '' }]
+    items:
+      - object: { sku: '00004' }
+        name: 'Nanotechnology is Huge'
+        sku: '00004'
+        price: 15.9900
+        itemNetPrice: 15.9900
+        discountedSubtotal: 14.3900
+        amount: 1
+        subtotal: 15.9900
+        total: 15.9900
+        object_type: product
+      - object: { sku: '00057' }
+        name: 'Paint Shop Pro Web Graphics [PDF]'
+        sku: '00057'
+        price: 39.9500
+        itemNetPrice: 39.9500
+        discountedSubtotal: 35.9500
+        amount: 1
+        subtotal: 39.9500
+        total: 39.9500
+        object_type: product
+      - object: { sku: '00029' }
+        name: 'Acrobots'
+        sku: '00029'
+        price: 6.7915
+        itemNetPrice: 6.7915
+        discountedSubtotal: 6.1100
+        amount: 1
+        subtotal: 6.7900
+        total: 6.7900
+        object_type: product
+      - object: { sku: '00041' }
+        name: 'Heart Hand Warmer'
+        sku: '00041'
+        price: 5.9900
+        itemNetPrice: 5.9900
+        discountedSubtotal: 48.5200
+        amount: 9
+        subtotal: 53.9100
+        total: 53.9100
+        object_type: product
+      - object: { sku: '00047' }
+        name: 'Thumb-Size R/C Mini Cooper'
+        sku: '00047'
+        price: 8.9910
+        itemNetPrice: 8.9910
+        discountedSubtotal: 8.0900
+        amount: 1
+        subtotal: 8.9910
+        total: 8.9910
+        object_type: product
+      - object: { sku: '00053' }
+        name: 'SRV-1 Blackfin Mobile Surveillance Robot'
+        sku: '00053'
+        price: 474.9900
+        itemNetPrice: 474.9900
+        discountedSubtotal: 427.4900
+        amount: 1
+        subtotal: 474.9900
+        total: 474.9900
+        object_type: product
+      - object: { sku: '00018' }
+        name: 'Tetrius Puzzle Game Magnets'
+        sku: '00018'
+        price: 9.9900
+        itemNetPrice: 9.9900
+        discountedSubtotal: 8.9900
+        amount: 1
+        subtotal: 9.9900
+        total: 9.9900
+        object_type: product
+      - object: { sku: '00000' }
+        name: 'Binary Mom'
+        sku: '00000'
+        price: 12.0000
+        itemNetPrice: 12.0000
+        discountedSubtotal: 10.8000
+        amount: 1
+        subtotal: 12.0000
+        total: 12.0000
+        object_type: product
+      - object: { sku: '00008' }
+        name: 'Wi-Fi Detector Shirt'
+        sku: '00008'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 17.9900
+        amount: 1
+        subtotal: 19.9900
+        total: 19.9900
+        object_type: product
+      - object: { sku: '00001' }
+        name: 'Planet Express Babydoll'
+        sku: '00001'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 17.9790
+        amount: 1
+        subtotal: 19.9900
+        total: 19.9900
+        object_type: product
+    surcharges:
+      - type: shipping
+        code: SHIPPING
+        class: '\XLite\Logic\Order\Modifier\Shipping'
+        name: Shipping cost
+        value: 15.0500
+      - type: discount
+        code: DISCOUNT
+        class: '\XLite\Module\CDev\VolumeDiscounts\Logic\Order\Modifier\Discount'
+        name: Discount
+        value: -66.2590
+
+  - profile:
+      login: bit-bucket@example.com
+      password: 084e0343a0486ff05530df6c705c8bb4
+      anonymous: 1
+      cms_profile_id: 0
+      addresses:
+        - is_billing: true
+          is_shipping: true
+          state: { country_code: US, code: OK }
+          country: { code: US }
+          addressFields :
+            - addressField: { serviceName: title }
+              value : 'Mr.'
+            - addressField: { serviceName: firstname }
+              value: Guest
+            - addressField: { serviceName: lastname }
+              value: Guest
+            - addressField: { serviceName: phone }
+              value: '0123456789'
+            - addressField: { serviceName: street }
+              value: '51 apt, 87 street'
+            - addressField: { serviceName: city }
+              value: Edmond
+            - addressField: { serviceName: state_id }
+              value: 185
+            - addressField: { serviceName: country_code }
+              value: US
+            - addressField: { serviceName: zipcode }
+              value: '73003'
+    orig_profile: { login: bit-bucket@example.com }
+    total: 255.6200
+    subtotal: 274.8500
+    date: 1362469895
+    currency: { code: USD }
+    paymentStatus: { code: P }
+    shippingStatus: { code: D }
+    orderNumber: 2
+    payment_transactions: [{ payment_method: { service_name: MoneyOrdering }, method_name: MoneyOrdering, method_local_name: 'Money Ordering', status: S, value: 110.65, type: sale, note: '' }]
+    items:
+      - object: { sku: '00045' }
+        name: 'Rubik''s Cube'
+        sku: '00045'
+        price: 9.9900
+        itemNetPrice: 9.9900
+        discountedSubtotal: 53.9500
+        amount: 6
+        subtotal: 59.9400
+        total: 59.9400
+        object_type: product
+      - object: { sku: '00030' }
+        name: 'Smart Mass Thinking Putty'
+        sku: '00030'
+        price: 9.9900
+        itemNetPrice: 9.9900
+        discountedSubtotal: 35.9600
+        amount: 4
+        subtotal: 39.9600
+        total: 39.9600
+        object_type: product
+      - object: { sku: '00022' }
+        name: 'Yoda Plush Backpack'
+        sku: '00022'
+        price: 34.9900
+        itemNetPrice: 34.9900
+        discountedSubtotal: 157.4450
+        amount: 5
+        subtotal: 174.9500
+        total: 174.9500
+        object_type: product
+    surcharges:
+      - type: shipping
+        code: SHIPPING
+        class: '\XLite\Logic\Order\Modifier\Shipping'
+        name: Shipping cost
+        value: 8.2600
+      - type: discount
+        code: DISCOUNT
+        class: '\XLite\Module\CDev\VolumeDiscounts\Logic\Order\Modifier\Discount'
+        name: Discount
+        value: -27.4850
+
+  - profile:
+      login: bit-bucket@example.com
+      password: 084e0343a0486ff05530df6c705c8bb4
+      anonymous: 1
+      cms_profile_id: 0
+      addresses:
+        - is_billing: true
+          is_shipping: true
+          state: { country_code: US, code: OK }
+          country: { code: US }
+          addressFields :
+            - addressField: { serviceName: title }
+              value : 'Mr.'
+            - addressField: { serviceName: firstname }
+              value: Guest
+            - addressField: { serviceName: lastname }
+              value: Guest
+            - addressField: { serviceName: phone }
+              value: '0123456789'
+            - addressField: { serviceName: street }
+              value: '51 apt, 87 street'
+            - addressField: { serviceName: city }
+              value: Edmond
+            - addressField: { serviceName: state_id }
+              value: 185
+            - addressField: { serviceName: country_code }
+              value: US
+            - addressField: { serviceName: zipcode }
+              value: '73003'
+    orig_profile: { login: bit-bucket@example.com }
+    total: 41.0700
+    subtotal: 36.9700
+    date: 1362469999
+    currency: { code: USD }
+    paymentStatus: { code: D }
+    shippingStatus: { code: WND }
+    orderNumber: 3
+    payment_transactions: [{ payment_method: { service_name: MoneyOrdering }, method_name: MoneyOrdering, method_local_name: 'Money Ordering', status: S, value: 110.65, type: sale, note: '' }]
+    items:
+      - object: { sku: '00010' }
+        name: 'Collector''s Edition Slinky'
+        sku: '00010'
+        price: 7.9900
+        itemNetPrice: 7.9900
+        discountedSubtotal: 7.9900
+        amount: 1
+        subtotal: 7.9900
+        total: 7.9900
+        object_type: product
+      - object: { sku: '00017' }
+        name: 'Albert Einstein Action Figure'
+        sku: '00017'
+        price: 8.9900
+        itemNetPrice: 8.9900
+        discountedSubtotal: 8.9900
+        amount: 1
+        subtotal: 8.9900
+        total: 8.9900
+        object_type: product
+      - object: { sku: '00039' }
+        name: 'Game of Life Kit'
+        sku: '00039'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 19.9900
+        amount: 1
+        subtotal: 19.9900
+        total: 19.9900
+        object_type: product
+    surcharges:
+      - type: shipping
+        code: SHIPPING
+        class: '\XLite\Logic\Order\Modifier\Shipping'
+        name: Shipping cost
+        value: 4.10
+
+  - profile:
+      login: bit-bucket@example.com
+      password: 084e0343a0486ff05530df6c705c8bb4
+      anonymous: 1
+      cms_profile_id: 0
+      addresses:
+        - is_billing: true
+          is_shipping: true
+          state: { country_code: US, code: OK }
+          country: { code: US }
+          addressFields :
+            - addressField: { serviceName: title }
+              value : 'Mr.'
+            - addressField: { serviceName: firstname }
+              value: Guest
+            - addressField: { serviceName: lastname }
+              value: Guest
+            - addressField: { serviceName: phone }
+              value: '0123456789'
+            - addressField: { serviceName: street }
+              value: '51 apt, 87 street'
+            - addressField: { serviceName: city }
+              value: Edmond
+            - addressField: { serviceName: state_id }
+              value: 185
+            - addressField: { serviceName: country_code }
+              value: US
+            - addressField: { serviceName: zipcode }
+              value: '73003'
+    orig_profile: { login: bit-bucket@example.com }
+    total: 206.4800
+    subtotal: 222.9900
+    date: 1394109873
+    currency: { code: USD }
+    paymentStatus: { code: R }
+    shippingStatus: { code: R }
+    orderNumber: 4
+    payment_transactions: [{ payment_method: { service_name: PhoneOrdering }, method_name: PhoneOrdering, method_local_name: 'Phone Ordering', status: W, value: 206.4800, type: sale, note: '' }]
+    items:
+      - object: { sku: '00096' }
+        name: 'Apple iPhone 5S'
+        sku: '00096'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+      - object: { sku: '00099' }
+        name: 'Apple iPhone 5C'
+        sku: '00099'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+      - object: { sku: '00013' }
+        name: 'Bare Metal Bender Wind-up'
+        sku: '00013'
+        price: 24.9900
+        itemNetPrice: 24.9900
+        discountedSubtotal: 22.4850
+        amount: 1
+        subtotal: 24.9900
+        total: 24.9900
+        object_type: product
+    surcharges:
+      - type: shipping
+        code: SHIPPING
+        class: '\XLite\Logic\Order\Modifier\Shipping'
+        name: Shipping cost
+        value: 5.79
+      - type: discount
+        code: DISCOUNT
+        class: '\XLite\Module\CDev\VolumeDiscounts\Logic\Order\Modifier\Discount'
+        name: Discount
+        value: -22.2990
+
+  - profile:
+      login: bit-bucket@example.com
+      password: 084e0343a0486ff05530df6c705c8bb4
+      anonymous: 1
+      cms_profile_id: 0
+      addresses:
+        - is_billing: true
+          is_shipping: true
+          state: { country_code: US, code: OK }
+          country: { code: US }
+          addressFields :
+            - addressField: { serviceName: title }
+              value : 'Mr.'
+            - addressField: { serviceName: firstname }
+              value: Guest
+            - addressField: { serviceName: lastname }
+              value: Guest
+            - addressField: { serviceName: phone }
+              value: '0123456789'
+            - addressField: { serviceName: street }
+              value: '51 apt, 87 street'
+            - addressField: { serviceName: city }
+              value: Edmond
+            - addressField: { serviceName: state_id }
+              value: 185
+            - addressField: { serviceName: country_code }
+              value: US
+            - addressField: { serviceName: zipcode }
+              value: '73003'
+    orig_profile: { login: bit-bucket@example.com }
+    total: 264.0900
+    subtotal: 285.9500
+    date: 1394110001
+    currency: { code: USD }
+    paymentStatus: { code: P }
+    shippingStatus: { code: D }
+    orderNumber: 5
+    payment_transactions: [{ payment_method: { service_name: PhoneOrdering }, method_name: PhoneOrdering, method_local_name: 'Phone Ordering', status: W, value: 264.0900, type: sale, note: '' }]
+    items:
+      - object: { sku: '00099' }
+        name: 'Apple iPhone 5C'
+        sku: '00099'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+      - object: { sku: '00017' }
+        name: 'Albert Einstein Action Figure'
+        sku: '00017'
+        price: 8.9900
+        itemNetPrice: 8.9900
+        discountedSubtotal: 8.0900
+        amount: 1
+        subtotal: 8.9900
+        total: 8.9900
+        object_type: product
+      - object: { sku: '00048' }
+        name: 'ChoroQ Qsteer Mario Kart R/C Racers'
+        sku: '00048'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 17.9990
+        amount: 1
+        subtotal: 19.9900
+        total: 19.9900
+        object_type: product
+      - object: { sku: '00096' }
+        name: 'Apple iPhone 5S'
+        sku: '00096'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+      - object: { sku: '00040' }
+        name: 'Mini Solar-Powered Car'
+        sku: '00040'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 17.9990
+        amount: 1
+        subtotal: 19.9900
+        total: 19.9900
+        object_type: product
+      - object: { sku: '00026' }
+        name: 'Shock Ball'
+        sku: '00026'
+        price: 13.9900
+        itemNetPrice: 13.9900
+        discountedSubtotal: 12.5990
+        amount: 1
+        subtotal: 13.9900
+        total: 13.9900
+        object_type: product
+      - object: { sku: '00013' }
+        name: 'Bare Metal Bender Wind-up'
+        sku: '00013'
+        price: 24.9900
+        itemNetPrice: 24.9900
+        discountedSubtotal: 22.4850
+        amount: 1
+        subtotal: 24.9900
+        total: 24.9900
+        object_type: product
+    surcharges:
+      - type: shipping
+        code: SHIPPING
+        class: '\XLite\Logic\Order\Modifier\Shipping'
+        name: Shipping cost
+        value: 6.7400
+      - type: discount
+        code: DISCOUNT
+        class: '\XLite\Module\CDev\VolumeDiscounts\Logic\Order\Modifier\Discount'
+        name: Discount
+        value: -28.5950
+
+  - profile:
+      login: bit-bucket@example.com
+      password: 084e0343a0486ff05530df6c705c8bb4
+      anonymous: 1
+      cms_profile_id: 0
+      addresses:
+        - is_billing: true
+          is_shipping: true
+          state: { country_code: US, code: OK }
+          country: { code: US }
+          addressFields :
+            - addressField: { serviceName: title }
+              value : 'Mr.'
+            - addressField: { serviceName: firstname }
+              value: Guest
+            - addressField: { serviceName: lastname }
+              value: Guest
+            - addressField: { serviceName: phone }
+              value: '0123456789'
+            - addressField: { serviceName: street }
+              value: '51 apt, 87 street'
+            - addressField: { serviceName: city }
+              value: Edmond
+            - addressField: { serviceName: state_id }
+              value: 185
+            - addressField: { serviceName: country_code }
+              value: US
+            - addressField: { serviceName: zipcode }
+              value: '73003'
+    orig_profile: { login: bit-bucket@example.com }
+    total: 264.0900
+    subtotal: 285.9500
+    date: 1394110061
+    currency: { code: USD }
+    paymentStatus: { code: P }
+    shippingStatus: { code: S }
+    orderNumber: 6
+    payment_transactions: [{ payment_method: { service_name: PhoneOrdering }, method_name: PhoneOrdering, method_local_name: 'Phone Ordering', status: W, value: 264.0900, type: sale, note: '' }]
+    items:
+      - object: { sku: '00099' }
+        name: 'Apple iPhone 5C'
+        sku: '00099'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+      - object: { sku: '00017' }
+        name: 'Albert Einstein Action Figure'
+        sku: '00017'
+        price: 8.9900
+        itemNetPrice: 8.9900
+        discountedSubtotal: 8.0900
+        amount: 1
+        subtotal: 8.9900
+        total: 8.9900
+        object_type: product
+      - object: { sku: '00048' }
+        name: 'ChoroQ Qsteer Mario Kart R/C Racers'
+        sku: '00048'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 17.9990
+        amount: 1
+        subtotal: 19.9900
+        total: 19.9900
+        object_type: product
+      - object: { sku: '00096' }
+        name: 'Apple iPhone 5S'
+        sku: '00096'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+      - object: { sku: '00040' }
+        name: 'Mini Solar-Powered Car'
+        sku: '00040'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 17.9990
+        amount: 1
+        subtotal: 19.9900
+        total: 19.9900
+        object_type: product
+      - object: { sku: '00026' }
+        name: 'Shock Ball'
+        sku: '00026'
+        price: 13.9900
+        itemNetPrice: 13.9900
+        discountedSubtotal: 12.5990
+        amount: 1
+        subtotal: 13.9900
+        total: 13.9900
+        object_type: product
+      - object: { sku: '00013' }
+        name: 'Bare Metal Bender Wind-up'
+        sku: '00013'
+        price: 24.9900
+        itemNetPrice: 24.9900
+        discountedSubtotal: 22.4850
+        amount: 1
+        subtotal: 24.9900
+        total: 24.9900
+        object_type: product
+    surcharges:
+      - type: shipping
+        code: SHIPPING
+        class: '\XLite\Logic\Order\Modifier\Shipping'
+        name: Shipping cost
+        value: 6.7400
+      - type: discount
+        code: DISCOUNT
+        class: '\XLite\Module\CDev\VolumeDiscounts\Logic\Order\Modifier\Discount'
+        name: Discount
+        value: -28.5950
+
+  - profile:
+      login: bit-bucket@example.com
+      password: 084e0343a0486ff05530df6c705c8bb4
+      anonymous: 1
+      cms_profile_id: 0
+      addresses:
+        - is_billing: true
+          is_shipping: true
+          state: { country_code: US, code: OK }
+          country: { code: US }
+          addressFields :
+            - addressField: { serviceName: title }
+              value : 'Mr.'
+            - addressField: { serviceName: firstname }
+              value: Guest
+            - addressField: { serviceName: lastname }
+              value: Guest
+            - addressField: { serviceName: phone }
+              value: '0123456789'
+            - addressField: { serviceName: street }
+              value: '51 apt, 87 street'
+            - addressField: { serviceName: city }
+              value: Edmond
+            - addressField: { serviceName: state_id }
+              value: 185
+            - addressField: { serviceName: country_code }
+              value: US
+            - addressField: { serviceName: zipcode }
+              value: '73003'
+    orig_profile: { login: bit-bucket@example.com }
+    total: 264.0900
+    subtotal: 285.9500
+    date: 1394110112
+    currency: { code: USD }
+    paymentStatus: { code: Q }
+    shippingStatus: { code: N }
+    orderNumber: 7
+    payment_transactions: [{ payment_method: { service_name: PhoneOrdering }, method_name: PhoneOrdering, method_local_name: 'Phone Ordering', status: W, value: 264.0900, type: sale, note: '' }]
+    items:
+      - object: { sku: '00099' }
+        name: 'Apple iPhone 5C'
+        sku: '00099'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+      - object: { sku: '00017' }
+        name: 'Albert Einstein Action Figure'
+        sku: '00017'
+        price: 8.9900
+        itemNetPrice: 8.9900
+        discountedSubtotal: 8.0900
+        amount: 1
+        subtotal: 8.9900
+        total: 8.9900
+        object_type: product
+      - object: { sku: '00048' }
+        name: 'ChoroQ Qsteer Mario Kart R/C Racers'
+        sku: '00048'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 17.9990
+        amount: 1
+        subtotal: 19.9900
+        total: 19.9900
+        object_type: product
+      - object: { sku: '00096' }
+        name: 'Apple iPhone 5S'
+        sku: '00096'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+      - object: { sku: '00040' }
+        name: 'Mini Solar-Powered Car'
+        sku: '00040'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 17.9990
+        amount: 1
+        subtotal: 19.9900
+        total: 19.9900
+        object_type: product
+      - object: { sku: '00026' }
+        name: 'Shock Ball'
+        sku: '00026'
+        price: 13.9900
+        itemNetPrice: 13.9900
+        discountedSubtotal: 12.5990
+        amount: 1
+        subtotal: 13.9900
+        total: 13.9900
+        object_type: product
+      - object: { sku: '00013' }
+        name: 'Bare Metal Bender Wind-up'
+        sku: '00013'
+        price: 24.9900
+        itemNetPrice: 24.9900
+        discountedSubtotal: 22.4850
+        amount: 1
+        subtotal: 24.9900
+        total: 24.9900
+        object_type: product
+    surcharges:
+      - type: shipping
+        code: SHIPPING
+        class: '\XLite\Logic\Order\Modifier\Shipping'
+        name: Shipping cost
+        value: 6.7400
+      - type: discount
+        code: DISCOUNT
+        class: '\XLite\Module\CDev\VolumeDiscounts\Logic\Order\Modifier\Discount'
+        name: Discount
+        value: -28.5950
+
+  - profile:
+      login: bit-bucket@example.com
+      password: 084e0343a0486ff05530df6c705c8bb4
+      anonymous: 1
+      cms_profile_id: 0
+      addresses:
+        - is_billing: true
+          is_shipping: true
+          state: { country_code: US, code: OK }
+          country: { code: US }
+          addressFields :
+            - addressField: { serviceName: title }
+              value : 'Mr.'
+            - addressField: { serviceName: firstname }
+              value: Guest
+            - addressField: { serviceName: lastname }
+              value: Guest
+            - addressField: { serviceName: phone }
+              value: '0123456789'
+            - addressField: { serviceName: street }
+              value: '51 apt, 87 street'
+            - addressField: { serviceName: city }
+              value: Edmond
+            - addressField: { serviceName: state_id }
+              value: 185
+            - addressField: { serviceName: country_code }
+              value: US
+            - addressField: { serviceName: zipcode }
+              value: '73003'
+    orig_profile: { login: bit-bucket@example.com }
+    total: 1754.7100
+    subtotal: 1915.0300
+    date: 1394110182
+    currency: { code: USD }
+    paymentStatus: { code: Q }
+    shippingStatus: { code: N }
+    orderNumber: 8
+    payment_transactions: [{ payment_method: { service_name: PhoneOrdering }, method_name: PhoneOrdering, method_local_name: 'Phone Ordering', status: W, value: 264.0900, type: sale, note: '' }]
+    items:
+      - object: { sku: '00040' }
+        name: 'Mini Solar-Powered Car'
+        sku: '00040'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 557.7200
+        amount: 31
+        subtotal: 619.6900
+        total: 619.6900
+        object_type: product
+      - object: { sku: '00048' }
+        name: 'ChoroQ Qsteer Mario Kart R/C Racers'
+        sku: '00048'
+        price: 19.9900
+        itemNetPrice: 19.9900
+        discountedSubtotal: 503.7500
+        amount: 28
+        subtotal: 559.7200
+        total: 559.7200
+        object_type: product
+      - object: { sku: '00026' }
+        name: 'Shock Ball'
+        sku: '00026'
+        price: 13.9900
+        itemNetPrice: 13.9900
+        discountedSubtotal: 453.2800
+        amount: 36
+        subtotal: 503.6400
+        total: 503.6400
+        object_type: product
+      - object: { sku: '00013' }
+        name: 'Bare Metal Bender Wind-up'
+        sku: '00013'
+        price: 24.9900
+        itemNetPrice: 24.9900
+        discountedSubtotal: 22.4850
+        amount: 1
+        subtotal: 24.9900
+        total: 24.9900
+        object_type: product
+      - object: { sku: '00017' }
+        name: 'Albert Einstein Action Figure'
+        sku: '00017'
+        price: 8.9900
+        itemNetPrice: 8.9900
+        discountedSubtotal: 8.0900
+        amount: 1
+        subtotal: 8.9900
+        total: 8.9900
+        object_type: product
+      - object: { sku: '00096' }
+        name: 'Apple iPhone 5S'
+        sku: '00096'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+      - object: { sku: '00099' }
+        name: 'Apple iPhone 5C'
+        sku: '00099'
+        price: 99.0000
+        itemNetPrice: 99.0000
+        discountedSubtotal: 89.1000
+        amount: 1
+        subtotal: 99.0000
+        total: 99.0000
+        object_type: product
+    surcharges:
+      - type: shipping
+        code: SHIPPING
+        class: '\XLite\Logic\Order\Modifier\Shipping'
+        name: Shipping cost
+        value: 31.1800
+      - type: discount
+        code: DISCOUNT
+        class: '\XLite\Module\CDev\VolumeDiscounts\Logic\Order\Modifier\Discount'
+        name: Discount
+        value: -191.5030
+

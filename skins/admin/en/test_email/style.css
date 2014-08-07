@@ -1,0 +1,29 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Test email widgets styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.test-email-error {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #E65E57;
+  color: white;
+  padding: 10px;
+  width: 600px;
+}
+
+.test-email-error * {
+  color: white;
+}
+
+.settings-Email table.settings-table {
+  border-collapse: inherit;
+  border-spacing: 5px;    
+}

@@ -1,0 +1,23 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Product attachments page styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.lc-minicart .pp-ec-button,
+#cart-right ul.totals .pp-ec-button
+{
+  background: transparent none;
+  border: 0px none;
+  margin: 0px;
+  padding: 0px;
+}
+
+img.paypal-ec {
+  vertical-align: middle;
+}

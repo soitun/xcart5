@@ -1,0 +1,298 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Top links
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+#top-links
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 8px;
+}
+
+#top-links ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#top-links li
+{
+  float: left;
+  position: relative;
+  z-index: 100;
+}
+
+#top-links li.your-store {
+  z-index: 50;
+}
+
+#top-links li a > span
+{
+  background: url(../images/dropdown_icon.png) no-repeat 100% 10px;
+  padding-right: 12px;
+  display: inline-block;
+}
+
+#top-links li.your-store a {
+  margin-left: 15px;
+}
+
+#top-links li.your-store a,
+#top-links li.your-store a > span
+{
+  color: #69a040;
+}
+
+#top-links li.your-store a > span {
+  background-image: none;
+  cursor: pointer;
+}
+
+#top-links li a {
+  cursor: default;
+}
+
+#top-links a,
+#top-links span,
+#top-links a:visited
+{
+  display: block;
+}
+
+#top-links a,
+#top-links span,
+#top-links div.link-item-block,
+#top-links div.link-item-block a,
+#top-links a:visited
+{
+  font-size: 14px;
+  margin: 4px;
+  padding-right: 10px;
+  color: #c5e5ff;
+  text-decoration: none;
+  text-align: left;
+}
+
+#top-links div.link-item-block {
+  padding-right: 0px;
+}
+
+#top-links div.link-item-block a,
+#top-links div.link-item-block a:visited,
+#top-links div.link-item-block a:link
+{
+  display: inline;
+  padding: 0px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#top-links a:hover,
+#top-links a:hover i.icon,
+#top-links a:hover span,
+#top-links li.your-store a:hover span,
+#top-links li.your-store.closed a:hover span,
+#top-links li.your-store.closed a:hover i.icon
+{
+  color: #fff;
+}
+
+#top-links ul div.children-block
+{
+  visibility: hidden;
+  position: absolute;
+  min-width: 260px;
+  height: 0;
+  margin-left: 12px;
+}
+
+#top-links ul li.last div.children-block
+{
+  right: 0;
+}
+
+#top-links ul ul
+{
+  background: #2e2e2e;
+  border: solid 1px #585858;
+  padding: 7px 10px;
+}
+
+#top-links ul ul li
+{
+  float: none;
+  padding: 0;
+  line-height: 17px;
+}
+
+#top-links ul li:hover ul,
+#top-links ul a:hover ul
+{
+  visibility: visible;
+}
+
+#top-links ul ul li a span
+{
+  margin: 0 9px;
+  background: 0 none;
+}
+
+#top-links ul ul li a
+{
+  background: 0 none;
+  padding: 6px 0 7px;
+  margin: 0;
+  cursor: pointer;
+}
+
+#top-links ul ul li a,
+#top-links ul ul li a:visited
+{
+  text-decoration: none;
+  white-space: nowrap;
+  width: 100%;
+}
+
+#top-links ul ul li a:hover
+{
+  color: #c5e5ff;
+  background-color: #434343;
+}
+
+#top-links ul ul li.text a,
+#top-links ul ul li.text a span
+{
+  color: #fff;
+  background: #2e2e2e;
+  cursor: default;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#top-links ul ul li.frontend-opened a span
+{
+  color: #7bffb0;
+}
+
+#top-links ul ul li.frontend-closed a span,
+#top-links li.your-store.closed a,
+#top-links li.your-store.closed a span,
+#top-links li.your-store.closed a i.icon
+{
+  color: #febeaf;
+}
+
+#top-links ul ul li.frontend-closed a span,
+#top-links li.your-store.closed .closed
+{
+  display: inline;
+}
+
+#top-links ul ul li.logoff,
+#top-links ul ul li.frontend-opened,
+#top-links ul ul li.frontend-closed
+{
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: solid 1px #585858;
+}
+
+#top-links .link-item-block span.storefront-title {
+  display: inline;
+  white-space: nowrap;
+}
+
+#top-links .storefront-title.storefront-closed {
+  color: #e1b598;
+}
+
+#top-links .private-link-storefront-block {
+  color: #c4c4c4;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+#top-links .private-link-storefront-block a {
+  color: #c5e5ff;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+#top-links li.account div {
+  right: 20px;
+  top: 31px;
+}
+
+#top-links li.account a.list
+{
+  background: url(../images/account_icon.png) no-repeat 2px -2px;
+  border-left: 1px solid #424b53;
+  height: 28px;
+  margin-top: 4px;
+  padding: 4px 26px 0 4px;
+  left: 0px;
+}
+
+#top-links li.account a.list:hover
+{
+  background: url(../images/account_icon.png) no-repeat 2px -32px;
+}
+
+#top-links li.account.warning a.list
+{
+  background: url(../images/account_icon.png) no-repeat 2px -62px;
+}
+
+#top-links li.account.warning a.list:hover
+{
+  background: url(../images/account_icon.png) no-repeat 2px -92px;
+}
+
+#top-links li.account a.list span
+{
+  font-size: 0px;
+}
+
+#top-links li.help {
+  padding-right: 17px;
+}
+
+#top-links li.help div {
+  right: 11px;
+  min-width: 176px;
+}
+
+#top-links li.help i.icon.fa-question-circle {
+  font-size: 15px;
+  left: -11px;
+  top: 6px;
+  position: absolute;
+}
+
+#top-links i.icon.fa-external-link {
+  float: right;
+  margin: 2px 5px;
+  display: none;
+}
+
+#top-links a:hover i.icon.fa-external-link {
+  display: block;
+}
+
+#top-links a.list
+{
+  padding: 0 3px 3px 4px;
+  cursor: pointer;
+  position: relative;
+  left: 6px;
+}

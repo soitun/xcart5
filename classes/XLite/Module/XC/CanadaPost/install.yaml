@@ -1,0 +1,379 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: user
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "User"
+  - name: password
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Password"
+  - name: developer_mode
+    category: XC\CanadaPost
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Developer mode"
+  - name: debug_enabled
+    category: XC\CanadaPost
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Log all comunications between shopping cart and UPS server"
+  - name: quote_type
+    category: XC\CanadaPost
+    value: C
+    translations:
+      - code: en
+        option_name: "Quote type"
+  - name: contract_id
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Contract ID"
+  - name: pick_up_type
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Shipments pick up type"
+  - name: deposit_site_num
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Site number of the deposit location"
+  - name: detailed_manifests
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Render detailed manifest"
+  - name: manifest_name
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Contact name for the manifest address"
+  - name: customer_number
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Customer numner"
+  - name: currency_rate
+    category: XC\CanadaPost
+    value: 1
+    translations:
+      - code: en
+        option_name: "Currency rate"
+        option_comment: "(specify rate X, where 1 CAD = X in shop currency)"
+  - name: length
+    category: XC\CanadaPost
+    value: 10
+    translations:
+      - code: en
+        option_name: "Package length (cm)"
+  - name: width
+    category: XC\CanadaPost
+    value: 9
+    translations:
+      - code: en
+        option_name: "Package width (cm)"
+  - name: height
+    category: XC\CanadaPost
+    value: 7
+    translations:
+      - code: en
+        option_name: "Package height (cm)"
+  - name: max_weight
+    category: XC\CanadaPost
+    value: 30
+    translations:
+      - code: en
+        option_name: "Maximum package weight"
+  - name: signature
+    category: XC\CanadaPost
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Signature"
+  - name: document
+    category: XC\CanadaPost
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Document"
+        option_comment: "Indicates whether the shipment is a document or not."
+  - name: unpackaged
+    category: XC\CanadaPost
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Unpackaged"
+        option_comment: "Indicates whether a shipment is unpackaged or not. For example, auto tires may be an example of an unpackaged shipment."
+  - name: mailing_tube
+    category: XC\CanadaPost
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Mailing tube"
+        option_comment: "Indicates whether a shipment is contained in a mailing tube. (e.g. a poster tube)"
+  - name: oversized
+    category: XC\CanadaPost
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Oversized"
+        option_comment: "Indicates whether the parcel is oversized or not."
+  - name: coverage
+    category: XC\CanadaPost
+    value: 0.00
+    translations:
+      - code: en
+        option_name: "Coverage"
+        option_comment: "In percent of the order subtotal (0 - do not use coverage)"
+  - name: age_proof
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Proof of age"
+  - name: way_to_deliver
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Way to deliver"
+  - name: non_delivery
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Non-delivery instructions"
+  - name: wizard_enabled
+    category: XC\CanadaPost
+    type: checkbox
+    value: Y
+    translations:
+      - code: en
+        option_name: "Merchant registration wizard"
+  - name: wizard_hash
+    category: XC\CanadaPost
+    translations:
+      - code: en
+        option_name: "Merchant registration hash"
+  - name: deliver_to_po_enabled
+    category: XC\CanadaPost
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Enable \"Deliver to Post Office\" feature"
+  - name: max_post_offices
+    category: XC\CanadaPost
+    value: 5
+    translations:
+      - code: en
+        option_name: "Maximum Post Offices that will be displayed"
+
+XLite\Model\LanguageLabel:
+  - { name: "Canada Post module allows to use online shipping rates calculation via Canada Post", translations: [{ code: en, label: "<b>Canada Post</b> module allows you to use online shipping rates calculation via <a href=\"https://www.canadapost.ca\">Canada Post</a>." }] }
+  - { name: "Products return has been approved", translations: [{ code: en, label: "Products return {{return_number}} has been approved"}] }
+  - { name: "Products return has been rejected", translations: [{ code: en, label: "Products return {{return_number}} has been rejected"}] }
+
+XLite\Model\Shipping\Method:
+  - processor: capost
+    carrier: capost
+    code: DOM.RP
+    enabled: 1
+    position: 10
+    translations:
+      - code: en
+        name: "Regular Parcel"
+  - processor: capost
+    carrier: capost
+    code: DOM.EP
+    enabled: 1
+    position: 20
+    translations:
+      - code: en
+        name: "Expedited Parcel"
+  - processor: capost
+    carrier: capost
+    code: DOM.XP
+    enabled: 1
+    position: 30
+    translations:
+      - code: en
+        name: "Xpresspost"
+  - processor: capost
+    carrier: capost
+    code: DOM.XP.CERT
+    enabled: 1
+    position: 40
+    translations:
+      - code: en
+        name: "Xpresspost Certified"
+  - processor: capost
+    carrier: capost
+    code: DOM.PC
+    enabled: 1
+    position: 50
+    translations:
+      - code: en
+        name: "Priority"
+  - processor: capost
+    carrier: capost
+    code: DOM.LIB
+    enabled: 1
+    position: 60
+    translations:
+      - code: en
+        name: "Library Books"
+  - processor: capost
+    carrier: capost
+    code: USA.EP
+    enabled: 1
+    position: 70
+    translations:
+      - code: en
+        name: "Expedited Parcel USA"
+  - processor: capost
+    carrier: capost
+    code: USA.PW.ENV
+    enabled: 1
+    position: 80
+    translations:
+      - code: en
+        name: "Priority Worldwide Envelope USA"
+  - processor: capost
+    carrier: capost
+    code: USA.PW.PAK
+    enabled: 1
+    position: 90
+    translations:
+      - code: en
+        name: "Priority Worldwide pak USA"
+  - processor: capost
+    carrier: capost
+    code: USA.PW.PARCEL
+    enabled: 1
+    position: 100
+    translations:
+      - code: en
+        name: "Priority Worldwide Parcel USA"
+  - processor: capost
+    carrier: capost
+    code: USA.SP.AIR
+    enabled: 1
+    position: 110
+    translations:
+      - code: en
+        name: "Small Packet USA Air"
+  - processor: capost
+    carrier: capost
+    code: USA.TP
+    enabled: 1
+    position: 120
+    translations:
+      - code: en
+        name: "Tracked Packet – USA"
+  - processor: capost
+    carrier: capost
+    code: USA.TP.LVM
+    enabled: 1
+    position: 130
+    translations:
+      - code: en
+        name: "Tracked Packet – USA (LVM)"
+  - processor: capost
+    carrier: capost
+    code: USA.XP
+    enabled: 1
+    position: 140
+    translations:
+      - code: en
+        name: "Xpresspost USA"
+  - processor: capost
+    carrier: capost
+    code: INT.XP
+    enabled: 1
+    position: 150
+    translations:
+      - code: en
+        name: "Xpresspost International"
+  - processor: capost
+    carrier: capost
+    code: INT.IP.AIR
+    enabled: 1
+    position: 160
+    translations:
+      - code: en
+        name: "International Parcel Air"
+  - processor: capost
+    carrier: capost
+    code: INT.IP.SURF
+    enabled: 1
+    position: 170
+    translations:
+      - code: en
+        name: "International Parcel Surface"
+  - processor: capost
+    carrier: capost
+    code: INT.PW.ENV
+    enabled: 1
+    position: 180
+    translations:
+      - code: en
+        name: "Priority Worldwide Envelope International"
+  - processor: capost
+    carrier: capost
+    code: INT.PW.PAK
+    enabled: 1
+    position: 190
+    translations:
+      - code: en
+        name: "Priority Worldwide pak International"
+  - processor: capost
+    carrier: capost
+    code: INT.PW.PARCEL
+    enabled: 1
+    position: 200
+    translations:
+      - code: en
+        name: "Priority Worldwide parcel International"
+  - processor: capost
+    carrier: capost
+    code: INT.SP.AIR
+    enabled: 1
+    position: 210
+    translations:
+      - code: en
+        name: "Small Packet International Air"
+  - processor: capost
+    carrier: capost
+    code: INT.SP.SURF
+    enabled: 1
+    position: 220
+    translations:
+      - code: en
+        name: "Small Packet International Surface"
+  - processor: capost
+    carrier: capost
+    code: INT.TP
+    enabled: 1
+    position: 230
+    translations:
+      - code: en
+        name: "Tracked Packet – International"
+

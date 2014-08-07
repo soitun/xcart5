@@ -1,0 +1,122 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * ____file_title____
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.section .header {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form_field_error {
+  border: 1px solid #ff0000;
+}
+
+input[type="text"].form_field_error {
+  border: 1px solid #ff0000;
+}
+
+.form-field-comment {
+  font-size: 0.9em;
+  margin-left: 30px;
+  clear: both;
+}
+
+/* Multiselect */
+.chosen-container-single .chosen-single,
+.chosen-container-active.chosen-with-drop .chosen-single
+{
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #81a4c1;
+  background: #fff none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 0 2px 2px #dbdee2;
+  height: 40px;
+}
+
+.chosen-container-multi .chosen-choices {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.chosen-container .chosen-single span,
+.chosen-container .chosen-single strong
+{
+  font-size: 16px;
+}
+
+.chosen-container .chosen-single strong {
+  color: #a2bbda;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice {
+  background: #dff2ff none;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice span {
+  font-size: 14px;
+}
+
+.chosen-container-active .chosen-choices li.search-field input[type="text"] {
+  height: 25px;
+}
+
+.chosen-container-single .chosen-drop {
+  margin-top: -3px;
+}
+
+.chosen-container-single .chosen-single div b {
+  background-position: 0px 7px;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single div b {
+  background-position: -18px 7px;
+}
+
+.chosen-container .chosen-results {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.chosen-container .chosen-drop .chosen-results li {
+  color: #0e55a6;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.chosen-container .chosen-drop .chosen-results li.result-selected {
+  color: #000;
+}
+
+.chosen-container .chosen-drop .chosen-results li.highlighted {
+  background: #edf5fe none;
+  color: #000;
+}
+
+/* Colorpicker */
+input[type="text"].color,
+div.table-value input[type="text"].color
+{
+  width: 4em;
+}
+
+/* Datepicker */
+input[type="text"].datepicker,
+div.table-value input[type="text"].datepicker
+{
+  width: 8em;
+}

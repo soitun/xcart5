@@ -1,0 +1,122 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Social Login widget styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.social-login-container {
+  clear: both;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+ul.social-login {
+  display: inline-block;
+  padding: 5px 7px 5px 4px;
+  background-color: #f3f3f3;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.checkout-block ul.social-login {
+  margin: -10px 0 20px;
+  padding: 5px 4px 5px 4px;
+}
+
+.tab-content ul.social-login {
+  margin: 25px 0 10px;
+}
+
+ul.social-login li {
+  background: none;
+  float: left;
+  padding: 0;
+  margin: 9px 6px;
+}
+
+ul.social-login li a {
+  text-decoration: none;
+  display: block;
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+}
+
+ul.social-login img {
+  display: inline-block;
+}
+
+ul.social-login .provider-name {
+  position: relative;
+  top: 2px; 
+  padding: 0px 15px 0px 15px;
+  font-size: 14px;
+  color: #555;
+  display: inline-block;
+}
+
+.login-form .forgot,
+.login-form .back-login {
+    margin-left: 5px;
+}
+
+.social-login-note {
+  font-size: 17px;
+  margin: 0 0 10px 0;
+}
+
+.signin-login-wrapper .social-login-note {
+  font-size: 12px;
+  margin: 22px 0 18px 0;
+  text-align: center;
+}
+
+ul.social-login .social-login-caption {
+  line-height: 32px;
+  margin: 9px 3px 9px 15px;
+}
+
+ul.social-login li.social-net-element.social-net-Facebook a {
+  border: solid 1px #385aa1;
+  background: linear-gradient(#395795, #4c72c0);
+  padding: 0px;
+}
+
+ul.social-login li.social-net-element.social-net-Facebook span.provider-name {
+  border-left: solid 1px #385aa1;
+  color: white;
+  height: 100%;
+}
+
+ul.social-login li.social-net-element.social-net-Facebook img {
+  margin: 7px 7px 0px 13px;
+}
+
+ul.social-login li.social-net-element.social-net-Google a {
+  border: solid 1px #c02d1a;
+  background: linear-gradient(#c02d1a, #dd4b39);
+  padding: 0px;
+}
+
+ul.social-login li.social-net-element.social-net-Google span.provider-name {
+  border-left: solid 1px #c02d1a;
+  color: white;
+  height: 100%;
+}
+
+ul.social-login li.social-net-element.social-net-Google img {
+  margin: 9px 1px 0px 9px;
+}
+
+.or-line .line {
+  height: 352px;
+}
+
+.or-line .or-box {
+  top: 191px;
+}

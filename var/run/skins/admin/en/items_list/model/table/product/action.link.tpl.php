@@ -1,0 +1,1 @@
+<?php if ($this->get('entity')->isPersistent()): ?><a  href="<?php echo func_htmlspecialchars($this->buildURL('product','',array('product_id'=>$this->get('entity')->getProductId(),'page'=>'inventory'))); ?>" class="block-link">...</a><?php endif; ?>

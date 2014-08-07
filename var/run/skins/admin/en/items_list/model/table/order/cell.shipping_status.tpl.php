@@ -1,0 +1,1 @@
+<span class="status-<?php echo func_htmlspecialchars($this->getComplex('entity.shippingStatus.code')); ?>"><a href="<?php echo func_htmlspecialchars($this->buildURL('order','',array('order_number'=>$this->get('entity')->getOrderNumber()))); ?>"><?php echo func_htmlspecialchars($this->getComplex('entity.shippingStatus.name')); ?></a></span>

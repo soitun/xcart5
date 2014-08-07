@@ -1,0 +1,53 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Configuration styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.box {
+  border: 1px solid #dfe5e8;
+  width: 698px;
+  background-color: #f2f2f2;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.box h2 {
+  color: #333;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #fff;
+  margin: 0px;
+  padding-left: 29px;
+  padding-right: 29px;
+  line-height: 80px;
+}
+
+.box .content {
+  background: transparent url(../images/payment_box_bg.png) repeat-x left top;
+  padding: 33px 29px 36px 29px;
+}
+
+.box .content p {
+  color: #456583;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 3px;
+  margin: 0px;
+}
+
+.box button {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.box .content span.or {
+  position: relative;
+  top: 10px;
+  margin-right: 8px;
+  color: #8f8f8f;
+}

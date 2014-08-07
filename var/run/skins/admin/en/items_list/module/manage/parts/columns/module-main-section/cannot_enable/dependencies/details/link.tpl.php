@@ -1,0 +1,1 @@
+<a<?php if ($this->getDependencyHRef($this->get('depend'))){?> href="<?php echo func_htmlspecialchars($this->getDependencyHRef($this->get('depend'))); ?>"<?php }?>><?php echo func_htmlspecialchars($this->get('depend')->getModuleName()); ?> (<?php echo func_htmlspecialchars($this->t('by')); ?> <?php echo func_htmlspecialchars($this->get('depend')->getAuthorName()); ?>)</a>

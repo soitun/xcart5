@@ -1,0 +1,1 @@
+<?php if ($this->getMoreLink()): ?><div class="more-link-button" onclick="self.location='<?php echo func_htmlspecialchars($this->getMoreLink()); ?>';" ><?php echo func_htmlspecialchars($this->getMoreLinkTitle()); ?></div><?php endif; ?>

@@ -1,0 +1,28 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Pages list styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.items-list.pages table.list td.name div.cell {
+  width: 350px;
+}
+
+.items-list.pages table.list td.cell.main,
+.items-list.pages table.list td.cell.main .plain-value,
+.items-list.pages table.list td.cell.main .plain-value .value {
+  font-size: 14px;
+}
+
+.items-list.pages table.list td.cleanURL div.cell {
+  width: 350px;
+}
+
+.items-list-table table.list thead th {
+  padding: 16px 18px 16px 28px;
+}

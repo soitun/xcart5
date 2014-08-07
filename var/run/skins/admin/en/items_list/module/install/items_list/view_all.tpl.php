@@ -1,0 +1,1 @@
+<?php if ($this->isLandingPage()): ?><a  class="view-all-modules-link" href="<?php echo func_htmlspecialchars($this->buildURL('addons_list_marketplace')); ?>"><?php echo func_htmlspecialchars($this->t('View all modules')); ?></a><?php endif; ?>

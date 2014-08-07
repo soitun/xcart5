@@ -1,0 +1,75 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Common styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/**
+ * Markup free clearing.
+ *
+ * @see http://perishablepress.com/press/2009/12/06/new-clearfix-hack
+ */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* IE6 */
+* html .clearfix {
+  height: 1%;
+}
+
+/* IE7 */
+*:first-child + html .clearfix {
+  min-height: 1%;
+}
+
+/**
+ * HTML elements
+ */
+fieldset {
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+form {
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  border: 0px none;
+  border-top: 1px solid black;
+  height: 0px;
+}
+
+img {
+  border: 0px;
+}
+
+table {
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.error {
+  color: #8c2e0b;
+}
+
+.marker,
+.form-required {
+  color: #f00;
+}

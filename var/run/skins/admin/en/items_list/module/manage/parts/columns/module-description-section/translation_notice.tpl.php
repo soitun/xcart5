@@ -1,0 +1,1 @@
+<?php if ($this->get('module')->isTranslation()): ?><div class="description" ><?php echo func_htmlspecialchars($this->t('Warning! Installing this module will overwrite all language labels translated to the appropriate language.')); ?></div><?php endif; ?>

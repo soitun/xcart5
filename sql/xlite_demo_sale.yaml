@@ -1,0 +1,18 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Demo store (RU)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Product:
+  - { sku: '00041', marketPrice: '7.9900', participateSale: 0, discountType: 'sale_price', salePriceValue: '5.9900', salePriceValueCalculated: '5.9900' }
+  - { sku: '00047', marketPrice: '0.0000', participateSale: 1, discountType: 'sale_percent', salePriceValue: '10.0000', salePriceValueCalculated: '8.9910' }
+  - { sku: '00005', marketPrice: '0.0000', participateSale: 1, discountType: 'sale_percent', salePriceValue: '20.0000', salePriceValueCalculated: '12.7920' }
+  - { sku: '00036', marketPrice: '0.0000', participateSale: 1, discountType: 'sale_price', salePriceValue: '39.0000', salePriceValueCalculated: '39.0000' }
+  - { sku: '00053', marketPrice: '499.9900', participateSale: 0, discountType: 'sale_price', salePriceValue: '474.9900', salePriceValueCalculated: '474.9900' }
+  - { sku: '00015', marketPrice: '0.0000', participateSale: 1, discountType: 'sale_price', salePriceValue: '19.9900', salePriceValueCalculated: '19.9900' }
+  - { sku: '00072', marketPrice: '0.0000', participateSale: 0, discountType: 'sale_price', salePriceValue: '1699.000', salePriceValueCalculated: '1699.0000' }
+  - { sku: '00012', marketPrice: '0.0000', participateSale: 1, discountType: 'sale_price', salePriceValue: '29.9900', salePriceValueCalculated: '29.9900' }

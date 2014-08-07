@@ -1,0 +1,15 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Skrill Quick Checkout enables you to take direct payment from credit cards, debit cards and over 60 other local payment options in over 200 countries as well as the Skrill eWallet.", translations: [{ code: en, label: "<strong>Skrill Quick Checkout</strong> enables you to take <strong>direct</strong> payment from credit cards, debit cards and over 60 other local payment options in over 200 countries as well as the Skrill eWallet. The highly competitive rates for this service are published on the Skrill website at <a href=\"http://www.skrill.com/app/help.pl?s=m_fees\">www.skrill.com</a>" }] }
+  - { name: "To have access to the International payment network of Skrill please register here for a free account if you don't have one yet.", translations: [{ code: en, label: "To have access to the International payment network of Skrill, please register <a href=\"{{url}}\">here</a> for a free account if you don't already have one." }] }
+  - { name: "To process your customers' payments with Skrill, you need a Skrill account. If you do not have one yet, you can sign up for free at http://www.skrill.com", translations: [{ code: en, label: "To process your customers' payments with Skrill, you need a Skrill account. If you do not have one yet, you can sign up for free at <a href=\"http://www.skrill.com/ads/partners/index.html?p=X-cart\">http://www.skrill.com</a>" }] }
+  - { name: "You have sent a request for activation on the X.", translations: [{ code: en, label: "Your activation request was sent on {{date}}. Please be aware that the verification process to use Skrill Quick Checkout could take up to 72 hours. You will be contacted by Skrill once the verification process has been completed. After activation, Skrill will give you access to a new section in your Skrill Account called Merchant Tools. Please set your secret word in the Merchant Tools (do NOT use your password for this) and also enter it in the section below to connect to Skrill. The secret word is the last step of your activation process; it is needed to encrypt your payments securely. After successful submission you will be ready to use all the direct payment options of Skrill." }] }
+  - { name: "Contact Skrill on ecommerce@skrill.com or by phone +44 (0) 870 383 0762", translations: [{ code: en, label: "Contact Skrill at <a href=\"mailto:ecommerce@skrill.com\">ecommerce@skrill.com</a> or by phone +44 (0) 870 383 0762" }] }

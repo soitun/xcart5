@@ -1,0 +1,60 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Layout styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+/**
+ * COLUMNS
+ */
+.sidebar
+{
+  padding: 0;
+  margin: 0;
+}
+
+#page-wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#page-wrapper:after {
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+#page{
+  padding-bottom: 150px;
+}
+
+/**
+ * HEADER
+ */
+#name-and-slogan
+{
+  display: table-cell;
+}
+
+#logo,
+  #name-and-slogan
+{
+  vertical-align: middle;
+}
+
+#main-menu,
+  #breadcrumb,
+  #main-wrapper,
+  #footer-area
+{
+  clear: both;
+}
+
+#main-wrapper{
+  position: relative;
+}

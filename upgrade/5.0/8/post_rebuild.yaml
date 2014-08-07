@@ -1,0 +1,40 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - { name: anonymous_custom_state, category: Shipping, type: text, orderby: 70, translations: [{ code: en, option_name: 'State' }] }
+  - { name: location_custom_state, category: Company, type: text, orderby: 415, translations: [{ code: en, option_name: 'State' }] }
+
+XLite\Model\LanguageLabel:
+  - { name: 'Please specify text labels for each language', translations: [{ code: en, label: 'Please specify text labels for each language. If some label translation is blank, it means that translation into the default language is used. If the default language translation is blank, the Label Name is used.' }] }
+  - { name: 'There is already an account with your email address. You can sign in or continue as guest', translations: [{ code: en, label: 'There is already an account with your email address. You can <a href="{{URL}}" class="sign-in log-in">sign in</a> or <a href="#" class="continue">continue as guest</a>' }] }
+  - { name: 'Clicking the Place order button you accept: Terms and Conditions', translations: [{ code: en, label: 'Clicking the "Place order" button you accept: <a href="{{URL}}">Terms & Conditions</a>' }] }
+  - { name: 'To boost your sales try to use Discounts coupons, Sale, Product Advisor, Volume discounts addons. Also you may be interested in all Marketing extensions from our Marketplace', translations: [{ code: en, label: 'To boost your sales try to use "<a href="{{discountCoupons}}">Discounts coupons</a>", "<a href="{{sale}}">Sale</a>", "<a href="{{productAdvisor}}">Product Advisor</a>", "<a href="{{volumeDiscounts}}">Volume discounts</a>" addons. Also you may be interested in all <a href="{{marketingTag}}">Marketing</a> extensions from our Marketplace' }] }
+  - { name: "There's no payment method available", translations: [{ code: en, label: "There's no payment method available. Please contact the <a href=\"mailto:{{email}}\">store administrator</a>." }] }
+  - { name: 'Edit states (X)', translations: [{ code: en, label: 'Edit states ({{count}})' }] }
+  - { name: 'X states have been removed', translations: [{ code: en, label: '{{count}} state(s) have been removed' }] }
+  - { name: 'X states have been successfully created', translations: [{ code: en, label: '{{count}} state(s) have been successfully created' }] }
+  - { name: 'X zones have been removed', translations: [{ code: en, label: '{{count}} zone(s) have been removed' }] }
+  - { name: 'X zones have been successfully created', translations: [{ code: en, label: '{{count}} zone(s) have been successfully created' }] }
+  - { name: 'Default zone tooltip text', translations: [{ code: en, label: 'This is a default zone which matches all possible addresses.<br />Default zone could be renamed but cannot be edited or removed.' }] }
+  - { name: 'Zone zipcode masks help', translations: [{ code: en, label: 'Examples:<br /><br />2204%<br />38245<br />23%' }] }
+  - { name: 'Zone city masks help', translations: [{ code: en, label: 'Examples:<br /><br />New York<br />New%<br />%York' }] }
+  - { name: 'Zone address masks help', translations: [{ code: en, label: 'Examples:<br />%Water St%<br />%Coney Island%' }] }
+  - { name: 'X shipping methods have been created', translations: [{ code: en, label: '{{count}} shipping method(s) have been created' }] }
+  - { name: 'X shipping methods have been removed', translations: [{ code: en, label: '{{count}} shipping method(s) have been removed' }] }
+  - { name: 'Edit rates (X)', translations: [{ code: en, label: 'Edit rates ({{count}})' }] }
+  - { name: 'Your first name', translations: [{ code: en, label: 'Your first name' }] }
+  - { name: 'Your last name', translations: [{ code: en, label: 'Your last name' }] }
+  - { name: '1000 Example street', translations: [{ code: en, label: '1000 Example street' }] }
+  - { name: 'Example city', translations: [{ code: en, label: 'Example city' }] }
+  - { name: 'California', translations: [{ code: en, label: 'California' }] }
+  - { name: '90001', translations: [{ code: en, label: '90001' }] }
+  - { name: '+12130000000', translations: [{ code: en, label: '+12130000000' }] }
+  - { name: 'email@example.com', translations: [{ code: en, label: 'email@example.com' }] }
+  - { name: 'Specification', translations: [{ code: en, label: 'Specification' }] }

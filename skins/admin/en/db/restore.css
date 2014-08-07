@@ -1,0 +1,36 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Restore form styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.restore-notice-content {
+  padding: 0px 0px 20px 0px;
+  font-size: 14px;
+}
+
+.db-restore-form {
+  
+}
+
+.db-restore-form button {
+  min-width: 170px;
+  margin: 0px 0px 20px 0px;  
+  display: block;
+  float: left;
+}
+
+.db-restore-form div.tooltip-main,
+  .db-restore-form input
+{
+  margin: 0px 0px 20px 0px;
+}
+
+.db-restore-form input.input-file {
+  border: none;
+}

@@ -1,0 +1,149 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * ____file_title____
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+/**
+ * Buttons definitions
+ */
+
+// The first button in the button sequence must be the yellow one
+.model-form-buttons .button:first-child button {
+  .regular-main-button;
+}
+
+// Grey small button
+.regular-button {
+  .btn;
+  .btn-default;
+}
+
+// Yellow small button
+.regular-main-button {
+  .btn-warning;
+}
+
+input[type="text"],
+  input[type="password"],
+  textarea
+{
+  .form-control;
+}
+
+textarea {
+  height: auto;
+}
+
+// Other specific design changes
+button.btn-default span,
+  button.regular-button span
+{
+  color: #2c5fa6;
+}
+
+button.btn-warning span,
+  button.regular-main-button span,
+  .model-form-buttons .button:first-child button span
+{
+  color: #ffffff;
+}
+
+.model-form-buttons .btn {
+  min-width: 150px;
+  vertical-align: top;
+  min-height: 35px;
+}
+
+.btn.disabled, .btn[disabled],
+  fieldset[disabled] .btn
+{
+  opacity: 0.25;
+  filter: alpha(opacity=25);
+}
+
+.btn {
+  min-height: 35px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.open > .dropdown-menu {
+  margin-top: 0px;
+}
+
+.tooltip.bottom {
+  margin-top: -2px;
+}
+
+.dropdown-menu > li > a,
+.dropdown-menu > li > button {
+  & {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: @line-height-base;
+    color: #154bab;
+    width: 100%;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+
+  & span {
+    text-decoration: none;
+    color: #154bab;
+    font-size: 14px;
+  }
+
+  & .button-icon {
+    margin-right: 5px;
+    width: 15px;
+    color: #154bab;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: @dropdown-link-hover-color;
+    background-color: #ebfafd;
+  }
+}
+
+.dropdown-menu .divider {
+  margin: 0px;
+}
+
+.btn .caret {
+  margin-left: 4px;
+}
+
+.dropdown-menu > .dropdown-header {
+  padding: 5px 11px 3px;
+}
+
+.has-error {
+  .tooltip-inner {
+    background-color: #fef0f0 !important;
+    border-color: #eaccd1 !important;
+    margin-top: 0px;
+    color: #c55a59 !important;
+  }
+
+  .tooltip.bottom {
+    margin-top: 2px;
+
+    .tooltip-arrow {
+      border-bottom-color: #eaccd1 !important;
+    }
+  }
+
+  .tooltip-arrow {
+    display: block !important;
+  }
+}

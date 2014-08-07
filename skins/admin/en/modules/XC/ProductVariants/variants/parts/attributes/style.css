@@ -1,0 +1,151 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Attributes
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+div.attributes ul.data li {
+  padding: 16px 11px 8px;
+  position: relative;
+  min-height: 34px;
+}
+
+div.attributes ul.data div.checkbox {
+  border: 1px solid #e9e9e9;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #f2f2f2;
+  padding: 8px 11px 8px 11px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 12px;
+}
+
+div.attributes ul.data div.checkbox input[type="checkbox"] {
+  margin-left: 0px;
+}
+
+div.attributes ul.data div.name {
+  display: inline-block;
+  background: transparent url(../../../../../../items_list/model/table/images/line-separator.png) repeat-y left top;
+  padding: 0 13px;
+  margin-left: 7px;
+  position: absolute;
+  left: 51px;
+  width: 190px;
+  overflow: hidden;
+}
+
+div.attributes ul.data div.name span {
+  font-size: 18px;
+}
+
+div.attributes ul.data li.fade-variant {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+div.attributes ul.data div.title,
+div.attributes ul.data div.values {
+  float: right;
+}
+
+div.attributes ul.data div.title {
+  color: #b8b8b8;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+div.attributes ul.data div.values {
+  width: 541px;
+  cursor: pointer;
+  margin-top: -11px;
+  margin-bottom: 5px;
+}
+
+div.attributes ul.data div.values span {
+  color: #3a618d;
+  background: #e2f1f7;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 9px 13px;
+  margin: 2px 2px 4px;
+  display: inline-block;
+}
+
+div.attributes ul.data li.fade-variant div.values span {
+  display: inline;
+}
+
+div.attributes ul.data li.fade-variant div.values {
+  margin-top: 0px;
+}
+
+div.attributes .buttons {
+  margin-bottom: -6px;
+  padding-top: 17px;
+}
+
+div.attributes .buttons .additional {
+  font-size: 16px;
+  padding-left: 13px;
+  display: none;
+}
+
+div.attributes .buttons button.main-button {
+  padding: 9px 26px;
+}
+
+.additional span {
+  font-size: 16px;
+}
+
+div.attributes .buttons .additional a.create-variants {
+  margin-left: 5px;
+}
+
+a.create-variants {
+  display: none;
+}
+
+div.attributes.checked .buttons .additional,
+div.attributes.checked a.create-variants {
+  display: inline;
+}
+
+a.create-variants .text {
+  text-decoration: underline;
+  color: #154e9c;
+}
+
+div.variants-are-based button {
+  float: right;
+  margin-top: 12px;
+  margin-right: 19px;
+}
+
+div.dialog-block.variants-are-based .header {
+  border: none;
+}
+
+div.dialog-block.variants-are-based .header .title {
+  color: #999;
+}
+div.variants-are-based .header .title span {
+  color: #3a618d;
+  font-size: 24px;
+  font-style: italic;
+}
+
+div.attributes.hidden {
+  display: none;
+}

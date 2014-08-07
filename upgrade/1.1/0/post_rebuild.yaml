@@ -1,0 +1,14 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data for core upgrading 1.0.25 -> 1.1.0
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - { name: aggregate_css, category: Performance, type: checkbox, orderby: 20, value: Y, translations: [{ code: en, option_name: 'Aggregate CSS files' }] }
+  - { name: aggregate_js, category: Performance, type: checkbox, orderby: 30, value: Y, translations: [{ code: en, option_name: 'Aggregate JS files' }] }
+  - { name: terms_url, category: Company, type: text, orderby: 380, value: 'cart.php?target=terms', translations: [{ code: en, option_name: 'Terms and conditions relative URL' }] }
+  - { name: trailing_zeroes, category: General, type: '', orderby: 605, value: 0, translations: [{ code: en, option_name: 'Hide trailing zeros in fractional part' }] }

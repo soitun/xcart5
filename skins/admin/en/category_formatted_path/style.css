@@ -1,0 +1,50 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Category formatted path style
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.category-formatted-path {
+  display: table;
+}
+
+.category-formatted-path li {
+  display: table-cell;
+}
+
+.category-formatted-path * {
+  color: #456583;
+  font-size: 16px;
+}
+
+.category-formatted-path li .delimiter {
+  padding: 0px 5px;
+}
+
+.category-formatted-path li a {
+  text-decoration: underline;
+}
+
+.category-formatted-path li a:hover {
+  color: #69a4c9;
+}
+
+.category-formatted-path li:last-child a:hover {
+  color: inherit;
+  cursor: default;
+}
+
+.category-formatted-path li:last-child a {
+  text-decoration: none;
+}
+
+.category-formatted-path li:last-child .delimiter {
+  display: none;
+}
+
+

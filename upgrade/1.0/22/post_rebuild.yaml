@@ -1,0 +1,19 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade dump
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Task:
+  - { owner: 'XLite\Core\Task\EventListener' }
+XLite\Model\Role:
+  - { translations: [{ code: en, name: Administrator }], permissions: [ { code: root access, section: All, translations: [{ code: en, name: Root access }] } ] }
+XLite\Model\Role\Permission:
+  - { code: manage catalog, section: Catalog, translations: [{ code: en, name: Manage catalog }] }
+  - { code: manage users, section: Users, translations: [{ code: en, name: Manage users }] }
+  - { code: manage orders, section: Sales, translations: [{ code: en, name: Manage orders }] }
+XLite\Model\LanguageLabel:
+  - { name: 'No modules found for search_string', translations: [{ code: en, label: 'No modules found for "<em>{{search_string}}</em>"' }] }

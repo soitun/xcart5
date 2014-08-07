@@ -1,0 +1,34 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Style
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+ table.wholesale-minimum-quantity {
+   margin: 0px 0px 20px 0px;
+ }
+
+ table.wholesale-minimum-quantity,
+  .main-button
+{
+  margin-left: 20px;
+}
+
+ table.wholesale-minimum-quantity td {
+   padding: 5px;
+ }
+
+ table.wholesale-minimum-quantity td.quantity-label {
+   color: #456583;
+   min-width: 120px;
+   font-size: 14px;
+ }
+
+ table.wholesale-minimum-quantity td.quantity-input input {
+   width: 50px;
+ }

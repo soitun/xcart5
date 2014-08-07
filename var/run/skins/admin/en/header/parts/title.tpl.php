@@ -1,0 +1,1 @@
+<title><?php echo func_htmlspecialchars($this->t('X-Cart 5 online store builder')); ?><?php if ($this->getTitle()){?> - <?php echo func_htmlspecialchars($this->t($this->getTitle())); ?><?php }?></title>

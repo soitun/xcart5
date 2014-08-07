@@ -1,0 +1,69 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade dump
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Order\Status\Payment:
+  - { code: Q, translations: [{ code: en, name: Awaiting payment, customerName: Awaiting payment }], position: 10 }
+  - { code: A, translations: [{ code: en, name: Authorized, customerName: Authorization hold }], position: 20 }
+  - { code: PP, translations: [{ code: en, name: Partially Paid, customerName: Partially Paid }], position: 30 }
+  - { code: P, translations: [{ code: en, name: Paid, customerName: Paid }], position: 40 }
+  - { code: D, translations: [{ code: en, name: Declined, customerName: Declined }], position: 50 }
+  - { code: C, translations: [{ code: en, name: Cancelled, customerName: Cancelled }], position: 60 }
+  - { code: R, translations: [{ code: en, name: Refunded, customerName: Refunded }], position: 70 }
+
+XLite\Model\Order\Status\Shipping:
+  - { code: N, translations: [{ code: en, name: New, customerName: New }], position: 10 }
+  - { code: P, translations: [{ code: en, name: Processing, customerName: Processing }], position: 20 }
+  - { code: S, translations: [{ code: en, name: Shipped, customerName: Shipped }], position: 30 }
+  - { code: D, translations: [{ code: en, name: Delivered, customerName: Delivered }], position: 40 }
+  - { code: WND, translations: [{ code: en, name: Will Not Deliver, customerName: Will Not Deliver }], position: 50 }
+  - { code: R, translations: [{ code: en, name: Returned, customerName: Returned }], position: 60 }
+
+XLite\Model\Order\Status\Property:
+  - { paymentStatus: { code: A }, shippingStatus: { code: N }, incStock: false}
+  - { paymentStatus: { code: A }, shippingStatus: { code: P }, incStock: false}
+  - { paymentStatus: { code: A }, shippingStatus: { code: S }, incStock: false}
+  - { paymentStatus: { code: A }, shippingStatus: { code: D }, incStock: false}
+  - { paymentStatus: { code: A }, shippingStatus: { code: WND }, incStock: false}
+  - { paymentStatus: { code: A }, shippingStatus: { code: R }, incStock: false}
+  - { paymentStatus: { code: PP }, shippingStatus: { code: N }, incStock: false}
+  - { paymentStatus: { code: PP }, shippingStatus: { code: P }, incStock: false}
+  - { paymentStatus: { code: PP }, shippingStatus: { code: S }, incStock: false}
+  - { paymentStatus: { code: PP }, shippingStatus: { code: D }, incStock: false}
+  - { paymentStatus: { code: PP }, shippingStatus: { code: WND }, incStock: false}
+  - { paymentStatus: { code: PP }, shippingStatus: { code: R }, incStock: false}
+  - { paymentStatus: { code: P }, shippingStatus: { code: N }, incStock: false}
+  - { paymentStatus: { code: P }, shippingStatus: { code: P }, incStock: false}
+  - { paymentStatus: { code: P }, shippingStatus: { code: S }, incStock: false}
+  - { paymentStatus: { code: P }, shippingStatus: { code: D }, incStock: false}
+  - { paymentStatus: { code: P }, shippingStatus: { code: WND }, incStock: false}
+  - { paymentStatus: { code: P }, shippingStatus: { code: R }, incStock: false}
+  - { paymentStatus: { code: D }, shippingStatus: { code: N }, incStock: true}
+  - { paymentStatus: { code: D }, shippingStatus: { code: P }, incStock: true}
+  - { paymentStatus: { code: D }, shippingStatus: { code: S }, incStock: true}
+  - { paymentStatus: { code: D }, shippingStatus: { code: D }, incStock: true}
+  - { paymentStatus: { code: D }, shippingStatus: { code: WND }, incStock: true}
+  - { paymentStatus: { code: D }, shippingStatus: { code: R }, incStock: true}
+  - { paymentStatus: { code: C }, shippingStatus: { code: N }, incStock: true}
+  - { paymentStatus: { code: C }, shippingStatus: { code: P }, incStock: true}
+  - { paymentStatus: { code: C }, shippingStatus: { code: S }, incStock: true}
+  - { paymentStatus: { code: C }, shippingStatus: { code: D }, incStock: true}
+  - { paymentStatus: { code: C }, shippingStatus: { code: WND }, incStock: true}
+  - { paymentStatus: { code: C }, shippingStatus: { code: R }, incStock: true}
+  - { paymentStatus: { code: Q }, shippingStatus: { code: N }, incStock: false}
+  - { paymentStatus: { code: Q }, shippingStatus: { code: P }, incStock: false}
+  - { paymentStatus: { code: Q }, shippingStatus: { code: S }, incStock: false}
+  - { paymentStatus: { code: Q }, shippingStatus: { code: D }, incStock: false}
+  - { paymentStatus: { code: Q }, shippingStatus: { code: WND }, incStock: false}
+  - { paymentStatus: { code: Q }, shippingStatus: { code: R }, incStock: false}
+  - { paymentStatus: { code: R }, shippingStatus: { code: N }, incStock: true}
+  - { paymentStatus: { code: R }, shippingStatus: { code: P }, incStock: true}
+  - { paymentStatus: { code: R }, shippingStatus: { code: S }, incStock: false}
+  - { paymentStatus: { code: R }, shippingStatus: { code: D }, incStock: false}
+  - { paymentStatus: { code: R }, shippingStatus: { code: WND }, incStock: true}
+  - { paymentStatus: { code: R }, shippingStatus: { code: R }, incStock: true}

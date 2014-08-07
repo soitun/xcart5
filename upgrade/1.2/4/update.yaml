@@ -1,0 +1,14 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures for 1.2.4 version
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  directives: { insert: true }  
+  - { name: 'Order is placed', translations: [{ code: en, label: 'Order {{order_number}} is placed' }] }
+  - { name: 'Order has failed', translations: [{ code: en, label: 'Order {{order_number}} has failed' }] }
+  - { name: 'To change the password, log into your company account and use the \'Modify profile\' link', translations: [{ code: en, label: 'To change the password, log into your {{company}} account and use the \'Modify profile\' link' }] }

@@ -1,0 +1,107 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - { name: csv_delim, category: Units, type: 'XLite\View\FormField\Select\CSVDelimiter', orderby: 700, value: ',', translations: [{ code: en, option_name: 'CSV column delimiter' }] }
+  - { name: company_website, category: Company, type: text, orderby: 370, translations: [{ code: en, option_name: 'Company website' }] }
+  - { name: default_admin_language, category: General, orderby: 335, value: en }
+  - { name: maximal_order_amount, category: General, type: 'XLite\View\FormField\Input\Text\Float', orderby: 290, value: 99999, widgetParameters: { min: 1 }, translations: [{ code: en, option_name: 'Maximum allowed order subtotal' }] }
+  - { name: minimal_order_amount, category: General, type: 'XLite\View\FormField\Input\Text\Float', orderby: 280, value: '0', widgetParameters: { min: 0 }, translations: [{ code: en, option_name: 'Minimum allowed order subtotal' }] }
+  - { name: order_number_counter, category: General, type: 'XLite\View\FormField\Input\Text\Integer', orderby: 390, value: 1, translations: [{ code: en, option_name: 'Next order #', option_comment: 'You can change the number that will be assigned on the next order. The new order number should be greater than the current one.' }] }
+  - { name: force_choose_product_options, category: General, type: checkbox, orderby: 299, value: N, translations: [{ code: en, option_name: 'Force customer to choose product options before the product can be added to cart' }] }
+  - { name: dim_symbol, category: Units, type: text, orderby: 625, value: in, translations: [{ code: en, option_name: 'Dimensional symbol' }] }
+  - { name: dim_unit, category: Units, type: 'XLite\View\FormField\Select\DimUnit', orderby: 623, value: in, translations: [{ code: en, option_name: 'Dimensional unit' }] }
+
+XLite\Model\LanguageLabel:
+  - { name: 'Clean aggregation cache help text', translations: [{ code: en, label: 'When X-Cart aggregates the CSS and JS files, the result is cached. If you change the JS/CSS files directly in the file system after they are included into the cache, you will not see the functionality or style changes. You should clear the aggregation cache first'} ]}
+  - { name: 'Clean widgets cache help text', translations: [{ code: en, label: 'When X-Cart uses widgets cache, the static content of the product lists will be stored into temporary cache. After editing the content (modifying the product descriptions, title or photos) you should clear the widgets cache to make these changes visible in the frontend right away. If you do not clear it, the changes will be updated anyway, but it may require more time'} ]}
+  - { name: 'The maximum file size that can be uploaded: X', translations: [{ code: en, label: 'The maximum file size that can be uploaded: {{upload_max_filesize}}' }] }
+  - { name: Search, translations: [{ code: en, label: Search }] }
+  - { name: 'Module available editions', translations: [{ code: en, label: 'This module is available in the following X-Cart editions: {{list}}. You can install this module after <a href="{{URL}}">purchasing</a> and activating your X-Cart 5 license key for one of these editions.'}] }
+  - { name: 'You can install these updates after purchasing and activating your X-Cart 5 license key', translations: [{ code: en, label: 'You can install these updates after <a href="{{URL}}">purchasing</a> and activating your X-Cart 5 license key.'}] }
+  - { name: 'X module settings', translations: [{ code: en, label: '"{{name}}" module settings' }] }
+  - { name: 'Welcome to X-Cart 5', translations: [{ code: en, label: 'Welcome to X-Cart 5' }] }
+  - { name: 'This is a demo store with powerful X-Cart 5 engine inside', translations: [{ code: en, label: 'This is a demo store with powerful X-Cart 5 engine inside, based on PHP5 templates technology integrated with SQL database.' }] }
+  - { name: 'You can upload the database data directly from your local computer', translations: [{ code: en, label: 'To upload the database data directly from your local computer, you should click on the "Browse" button, choose an SQL dump file and click on the "Upload and restore" button. This method is more convenient, however, it has file size limitation of {{N}}.' }] }
+  - { name: 'Alternatively, upload file sqldump.sql.php to the var/backup/ sub-directory click on the "Restore from server" button', translations: [{ code: en, label: 'You may upload the file named sqldump.sql.php to the var/backup/ sub-directory of your X-Cart 5 installation on the web server and click on the "Restore from server" button' }] }
+  - { name: 'To restore the images stored in the file system you have to copy them from the archive to the X-Cart 5 catalog', translations: [{ code: en, label: 'To restore the images stored in the file system you have to copy them from the archive to the X-Cart 5 catalog, taking into consideration the catalog structure.' }] }
+  - { name: 'You can choose if to download your database data', translations: [{ code: en, label: 'You can choose one of the following options:<ol class="ordered-list"><li>To download the database data (SQL dump) directly to your local computer, you should click on the "Download SQL file" button.</li><li>To save the database data as a file on the web server ("var/backup/sqldump.sql.php"), you should click on the "Create SQL file" button.</li></ol>' }] }
+  - { name: 'Your order has been shipped', translations: [{ code: en, label: 'Your order #{{id}} has been shipped.' }] }
+  - { name: 'X, including images and file attachments', translations: [{ code: en, label: '{{size}}, including images and file attachments' }] }
+  - { name: About X remain, translations: [{ code: en, label: 'About {{time}} remain' }] }
+  - { name: Exported in X, translations: [{ code: en, label: 'Exported in {{date}}' }] }
+  - { name: 'Directory X does not have permissions to write. Please set necessary permissions to directory X.', translations: [{ code: en, label: 'Directory {{path}} does not have permissions to write. Please set necessary permissions to directory {{path}}.' }] }
+  - { name: 'Failed write to file X. There may not be enough disc-space. Please check if there is enough disc-space.', translations: [{ code: en, label: 'Failed write to file {{path}}. There may not be enough disc-space. Please check if there is enough disc-space.' }] }
+  - { name: 'The process of export is complete. You can follow this_link to check the results and download the files containing data.', translations: [{ code: en, label: 'The process of export is complete. You can follow <a href="{{url}}">this link</a> to check the results and download the files containing data.' }] }
+  - { name: 'This will increase the shipping cost by XX', translations: [{ code: en, label: 'This will increase the shipping cost by {{XX}}' }] }
+  - { name: 'X products', translations: [{ code: en, label: '{{count}} products' }] }
+  - { name: 'Edit subcategories (X)', translations: [{ code: en, label: 'Subcategories: {{count}}' }] }
+  - { name: 'Manage category (X)', translations: [{ code: en, label: 'Manage category: {{category_name}}' }] }
+  - { name: 'Enter OrderID or email', translations: [{ code: en, label: 'Enter OrderID or email' }] }
+  - { name: 'All Order Statuses', translations: [{ code: en, label: 'All Order Statuses' }] }
+  - { name: 'Enter date range', translations: [{ code: en, label: 'Enter date range' }] }
+  - { name: 'Authorized', translations: [{ code: en, label: 'Authorized' }] }
+  - { name: 'Shipped', translations: [{ code: en, label: 'Shipped' }] }
+  - { name: 'Canceled', translations: [{ code: en, label: 'Canceled' }] }
+  - { name: 'Expired', translations: [{ code: en, label: 'Expired' }] }
+  - { name: 'Refund requested', translations: [{ code: en, label: 'Refund requested' }] }
+  - { name: 'Refunded', translations: [{ code: en, label: 'Refunded' }] }
+  - { name: 'Partially refunded', translations: [{ code: en, label: 'Partially refunded' }] }
+  - { name: 'Selected:', translations: [{ code: en, label: 'Selected:' }] }
+  - { name: 'Days', translations: [{ code: en, label: 'Days' }] }
+  - { name: 'Close', translations: [{ code: en, label: 'Close' }] }
+  - { name: 'MO', translations: [{ code: en, label: 'MO' }] }
+  - { name: 'TU', translations: [{ code: en, label: 'TU' }] }
+  - { name: 'WE', translations: [{ code: en, label: 'WE' }] }
+  - { name: 'TH', translations: [{ code: en, label: 'TH' }] }
+  - { name: 'FR', translations: [{ code: en, label: 'FR' }] }
+  - { name: 'SA', translations: [{ code: en, label: 'SA' }] }
+  - { name: 'SU', translations: [{ code: en, label: 'SU' }] }
+  - { name: 'JANUARY', translations: [{ code: en, label: 'JANUARY' }] }
+  - { name: 'FEBRUARY', translations: [{ code: en, label: 'FEBRUARY' }] }
+  - { name: 'MARCH', translations: [{ code: en, label: 'MARCH' }] }
+  - { name: 'APRIL', translations: [{ code: en, label: 'APRIL' }] }
+  - { name: 'MAY', translations: [{ code: en, label: 'MAY' }] }
+  - { name: 'JUNE', translations: [{ code: en, label: 'JUNE' }] }
+  - { name: 'JULY', translations: [{ code: en, label: 'JULY' }] }
+  - { name: 'AUGUST', translations: [{ code: en, label: 'AUGUST' }] }
+  - { name: 'SEPTEMBER', translations: [{ code: en, label: 'SEPTEMBER' }] }
+  - { name: 'OCTOBER', translations: [{ code: en, label: 'OCTOBER' }] }
+  - { name: 'NOVEMBER', translations: [{ code: en, label: 'NOVEMBER' }] }
+  - { name: 'DECEMBER', translations: [{ code: en, label: 'DECEMBER' }] }
+  - { name: 'Shortcuts', translations: [{ code: en, label: 'Shortcuts' }] }
+  - { name: 'Past', translations: [{ code: en, label: 'Past' }] }
+  - { name: '7days', translations: [{ code: en, label: '7days' }] }
+  - { name: '14days', translations: [{ code: en, label: '14days' }] }
+  - { name: '30days', translations: [{ code: en, label: '30days' }] }
+  - { name: 'Previous', translations: [{ code: en, label: 'Previous' }] }
+  - { name: 'Week', translations: [{ code: en, label: 'Week' }] }
+  - { name: 'Month', translations: [{ code: en, label: 'Month' }] }
+  - { name: 'Quarter', translations: [{ code: en, label: 'Quarter' }] }
+  - { name: 'Year', translations: [{ code: en, label: 'Year' }] }
+  - { name: 'Date range should longer than %d days', translations: [{ code: en, label: 'Date range should longer than %d days' }] }
+  - { name: 'Date range should less than %d days', translations: [{ code: en, label: 'Date range should less than %d days' }] }
+  - { name: 'Please select a date range longer than %d days', translations: [{ code: en, label: 'Please select a date range longer than %d days' }] }
+  - { name: 'Please select a date range less than %d days', translations: [{ code: en, label: 'Please select a date range less than %d days' }] }
+  - { name: 'Please select a date range between %d and %d days', translations: [{ code: en, label: 'Please select a date range between %d and %d days' }] }
+  - { name: 'Please select a date range', translations: [{ code: en, label: 'Please select a date range' }] }
+  - { name: 'Enter keyword', translations: [{ code: en, label: 'Enter keyword' }] }
+  - { name: 'All membership levels', translations: [{ code: en, label: 'All membership levels' }] }
+  - { name: 'No membership', translations: [{ code: en, label: 'No membership' }] }
+  - { name: 'All User Types', translations: [{ code: en, label: 'All User Types' }] }
+  - { name: 'Select one...', translations: [{ code: en, label: 'Select one...' }] }
+  - { name: 'Please select one ...', translations: [{ code: en, label: 'Please select one ...' }] }
+  - { name: 'Search keywords', translations: [{ code: en, label: 'Search keywords' }] }
+  - { name: 'Any category', translations: [{ code: en, label: 'Any category' }] }
+  - { name: 'Any status', translations: [{ code: en, label: 'Any status' }] }
+  - { name: 'Search in', translations: [{ code: en, label: 'Search in' }] }
+  - { name: 'Edit labels (X)', translations: [{ code: en, label: '{{count}} label(s)' }] }
+  - { name: 'This language is added by module and cannot be removed.', translations: [{ code: en, label: 'This language is added by module {{module}} and cannot be removed.' }] }
+  - { name: 'X languages have been removed', translations: [{ code: en, label: '{{count}} language(s) have been removed' }] }
+  - { name: 'X language labels have been removed', translations: [{ code: en, label: '{{count}} language label(s) have been removed' }] }

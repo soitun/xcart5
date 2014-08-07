@@ -1,0 +1,108 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Product PIN codes styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+#autopincodes {
+  width: 300px;
+}
+
+.pin-codes-enabled {
+  line-height: 30px;
+  font-size: 16px;
+  color: #456583;
+  margin-bottom: 10px;
+}
+
+.pin-codes-enabled .table-value, 
+.pin-codes-auto .table-value 
+{
+  float: left;
+  width: auto;
+}
+
+.pin-codes-enabled label {
+  padding-left: 35px;
+  line-height: 30px;
+  vertical-align: middle;
+  display: block;
+  padding-top: 5px;
+}
+
+.pins-enabled-value {
+  padding-right: 7px;
+}
+
+.pin-codes-auto {
+  padding-left: 37px;
+  margin-bottom: 20px;
+}
+
+.pin-codes-status div {
+  display: inline-block;
+}
+
+.pin-codes-status .table-value {
+  margin-right: 20px;
+  width: auto;
+  vertical-align: top;
+}
+
+.pin-codes-status div * {  
+  font-size: 16px;
+}
+
+.pin-codes-status .star {
+  width: 7px;
+}
+
+.pin-codes-actions {
+  margin-bottom: 7px;
+}
+
+.items-list-table.pincodes table.list tbody tr td,
+.items-list-table.pincodes table.list tbody tr td .view 
+{
+  font-size: 16px;
+  height: auto;
+}
+
+.items-list-table.pincodes table.list tbody tr.sold td,
+.items-list-table.pincodes table.list tbody tr.sold td .view 
+{
+  color: #888;
+}
+
+.pincodes td.code {
+  min-width: 500px;
+}
+
+.items-list-table.pincodes th.createDate {
+  text-align: right;
+}
+
+.items-list-table.pincodes table.list tbody tr td.createDate .view {
+  font-size: 14px; 
+}
+
+.items-list-table.pincodes table.list tbody tr td.statusData * {
+  color: #4C6883;
+}
+
+.items-list-table.pincodes table.list tbody tr td.statusData div.pin-sold {
+  background: url(../images/pin_sold.png) no-repeat 0px 0px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.items-list-table.pincodes table.list tbody tr td.statusData a {
+  text-decoration: underline;
+  color: #154E9C;
+} 

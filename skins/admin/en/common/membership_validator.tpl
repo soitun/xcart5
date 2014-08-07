@@ -1,0 +1,11 @@
+{* vim: set ts=2 sw=2 sts=2 et: *}
+
+{**
+ * ____file_title____
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ *}
+<span class="validate-error-message">&nbsp;&nbsp;&lt;&lt;&nbsp;{if:dataInvalid}{t(#The membership name cannot contain such symbols as \, ' and ". Also, it cannot exceed 32 characters.#)}{else:}{t(#Please, enter unique membership name#)}{end:}</span>

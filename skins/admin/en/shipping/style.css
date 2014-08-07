@@ -1,0 +1,73 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Shipping management section styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+/**
+ * Shipping methods
+ */
+
+ul.carriers-list {
+  padding-bottom: 40px;
+}
+
+ul.carriers-list li {
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul.carriers-list li span,
+ul.carriers-list li a {
+  font-size: 16px;
+}
+
+ul.carriers-list li span {
+  padding: 5px 10px;
+  background-color: #ebf7ff;
+  border: 1px solid #cadce8;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: context-menu;
+}
+
+ul.carriers-list li a {
+  text-decoration: underline;
+}
+
+.items-list.shipping-methods table.list tr th.name,
+.items-list.shipping-methods table.list tr td.cell.name {
+  width: 400px;
+}
+
+.items-list.shipping-methods table.list tr th.taxClass,
+.items-list.shipping-methods table.list tr td.cell.taxClass {
+  width: 200px;
+}
+
+.items-list.shipping-methods table.list tr th.actions.left,
+.items-list.shipping-methods table.list tr td.cell.actions.left {
+  width: 47px;
+}
+
+.items-list.shipping-methods table.list tr th.actions.right,
+.items-list.shipping-methods table.list tr td.cell.actions.right {
+  width: 31px;
+}
+
+.inline-field.editable.inline-position .view {
+  margin: 0;
+}
+
+input[type="text"] {
+  width: auto;
+  display: inline-block;
+}

@@ -1,0 +1,66 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Styles for unauthorized interface
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+#page-container {
+  width: 600px !important;
+  margin: 0 auto;
+}
+
+.unauthorized #content-header {
+  border: none;
+}
+
+.unauthorized #header .logo {
+  background: url("../images/logo_admin_login.png") no-repeat scroll -1px 0 transparent;
+  height: 84px;
+  width: 82px;
+}
+
+.unauthorized #header,
+  #menu
+{
+  background: transparent none;
+  height: 76px;
+}
+
+.unauthorized #header {
+  width: 600px !important;
+  margin: 0 auto;
+  position: relative;
+}
+
+.unauthorized #header .sw-version {
+  left: 115px;
+  top: 25px;
+}
+
+.unauthorized #header-wrapper {
+  background-color: #f0f0f0;
+  padding: 0px 0px 20px 0px;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.unauthorized #main {
+  margin-left: 0px;
+  min-width: 640px;
+}
+
+.unauthorized h1 {
+  margin: 0px 0px 0px 100px;
+  padding: 43px 0px 0px 12px;
+  font-family: Arial,Verdana,sans-serif;
+  font-size: 36px;
+  color: #595b5c;
+}
+
+.unauthorized #content {
+  background: transparent none;
+  border-top: 0 none;
+}

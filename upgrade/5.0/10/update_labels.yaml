@@ -1,0 +1,356 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Weight", translations: [{ code: en, label: "Weight" }] }
+  - { name: "Add to cart", translations: [{ code: en, label: "Add to cart" }] }
+  - { name: "Description", translations: [{ code: en, label: "Description" }] }
+  - { name: "SKU", translations: [{ code: en, label: "SKU" }] }
+  - { name: "Previous product", translations: [{ code: en, label: "Previous product" }] }
+  - { name: "Next product", translations: [{ code: en, label: "Next product" }] }
+  - { name: "Clear cart", translations: [{ code: en, label: "Clear cart" }] }
+  - { name: "Continue shopping", translations: [{ code: en, label: "Continue shopping" }] }
+  - { name: "Submit", translations: [{ code: en, label: "Submit" }] }
+  - { name: "Delivery", translations: [{ code: en, label: "Delivery" }] }
+  - { name: "This product is out of stock or it has been disabled for sale", translations: [{ code: en, label: "(!) This product is out of stock or not available" }] }
+  - { name: "Update", translations: [{ code: en, label: "Update" }] }
+  - { name: "Grand total", translations: [{ code: en, label: "Grand total" }] }
+  - { name: "Shipping cost", translations: [{ code: en, label: "Shipping cost" }] }
+  - { name: "Free", translations: [{ code: en, label: "Free" }] }
+  - { name: "Subtotal", translations: [{ code: en, label: "Subtotal" }] }
+  - { name: "Tax", translations: [{ code: en, label: "Tax" }] }
+  - { name: "n/a", translations: [{ code: en, label: "n/a" }] }
+  - { name: "Delete item", translations: [{ code: en, label: "Delete item" }] }
+  - { name: "Continue...", translations: [{ code: en, label: "Continue..." }] }
+  - { name: "Clean aggregation cache help text", translations: [{ code: en, label: "When X-Cart aggregates CSS and JS files, the result is cached. If you change the JS/CSS files directly in the file system after they have been included into the cache, you will not see the functionality or style changes. To make your changes visible, clear the aggregation cache." }] }
+  - { name: "Clean widgets cache help text", translations: [{ code: en, label: "When X-Cart uses widgets cache, the static content of product lists is stored into a temporary cache. After editing the content (modifying the product descriptions, title or photos), you should clear the widgets cache to make these changes visible in the front end right away. If you do not clear it, the changes will be updated anyway, but it may require more time" }] }
+  - { name: "The language you want to add has not been found", translations: [{ code: en, label: "The language you want to add has not been found" }] }
+  - { name: "The language you want to add has already been added", translations: [{ code: en, label: "This language already exists" }] }
+  - { name: "The X language has been added successfully", translations: [{ code: en, label: "The {{language}} language has been added successfully" }] }
+  - { name: "The language you want to delete has not been found", translations: [{ code: en, label: "The language you want to delete has not been found" }] }
+  - { name: "The X language has been deleted successfully", translations: [{ code: en, label: "The {{language}} language has been deleted successfully" }] }
+  - { name: "The language has not been found", translations: [{ code: en, label: "Language not found" }] }
+  - { name: "The default interface language cannot be disabled", translations: [{ code: en, label: "The default interface language cannot be disabled" }] }
+  - { name: "The X language has been disabled successfully", translations: [{ code: en, label: "The {{language}} language has been disabled" }] }
+  - { name: "The X language has been enabled successfully", translations: [{ code: en, label: "The {{language}} language has been enabled" }] }
+  - { name: "Text labels have been updated successfully", translations: [{ code: en, label: "The text labels have been updated" }] }
+  - { name: "Text labels have not been updated successfully: the translation language has not been specified", translations: [{ code: en, label: "Couldn't update the text labels: the translation language is not specified" }] }
+  - { name: "Text labels have not been updated successfully: the default application language has been set as the translation language", translations: [{ code: en, label: "Couldn't update the text labels: the default language is set as the translation language" }] }
+  - { name: "Text labels have not been updated successfully: the translation language has not been found", translations: [{ code: en, label: "Couldn't update the text labels: the translation language has not been found" }] }
+  - { name: "Text labels have been deleted", translations: [{ code: en, label: "The text labels have been deleted" }] }
+  - { name: "Text labels have not been deleted: no text labels have been found or specified", translations: [{ code: en, label: "Couldn't delete the text labels: text labels not found or not specified" }] }
+  - { name: "The text label has been deleted", translations: [{ code: en, label: "The text label has been deleted" }] }
+  - { name: "The text label has not been deleted: it has been either not found or not specified", translations: [{ code: en, label: "Couldn't delete the text label: text label not found or not specified" }] }
+  - { name: "The text label has not been added, because its name has not been specified", translations: [{ code: en, label: "Couldn't add the text label: name not specified." }] }
+  - { name: "The text label has not been added, because such a text label already exists", translations: [{ code: en, label: "Couldn't add the text label: text label already exists." }] }
+  - { name: "The text label has been added successfully", translations: [{ code: en, label: "The text label has been added successfully" }] }
+  - { name: "The text label has been modified successfully", translations: [{ code: en, label: "The text label has been updated successfully" }] }
+  - { name: "The edited language has not been found", translations: [{ code: en, label: "The language you are trying to edit has not been found" }] }
+  - { name: "The language data has been saved", translations: [{ code: en, label: "The language data has been saved" }] }
+  - { name: "The maximum file size that can be uploaded: X", translations: [{ code: en, label: "The maximum upload file size is {{upload_max_filesize}}" }] }
+  - { name: "Search", translations: [{ code: en, label: "Search" }] }
+  - { name: "Show all labels", translations: [{ code: en, label: "Show all labels" }] }
+  - { name: "N items found", translations: [{ code: en, label: "{{n}} items found" }] }
+  - { name: "No modules found for search_string", translations: [{ code: en, label: "No modules found for \"<em>{{search_string}}</em>\"" }] }
+  - { name: "Language options", translations: [{ code: en, label: "Language options" }] }
+  - { name: "X labels", translations: [{ code: en, label: "{{language}} labels" }] }
+  - { name: "Select language", translations: [{ code: en, label: "Select language" }] }
+  - { name: "No other languages defined", translations: [{ code: en, label: "No other languages defined" }] }
+  - { name: "Add new label", translations: [{ code: en, label: "Add new label" }] }
+  - { name: "Add language", translations: [{ code: en, label: "Add language" }] }
+  - { name: "N items total", translations: [{ code: en, label: "{{n}} items total" }] }
+  - { name: "N it.", translations: [{ code: en, label: "{{count}} item(s)" }] }
+  - { name: "Add new language", translations: [{ code: en, label: "Add new language" }] }
+  - { name: "Save", translations: [{ code: en, label: "Save" }] }
+  - { name: "Please specify text labels for each language", translations: [{ code: en, label: "Provide a translation of the text label into each of the languages used at your store. If the text label does not have a translation for a specific language, the label's translation into the default language will be used instead. If the default language translation is also not available, the Label Name will be used." }] }
+  - { name: "Module available editions", translations: [{ code: en, label: "This module is available in the following X-Cart editions: {{list}}. You can install this module after <a href=\"{{URL}}\">purchasing</a> and activating your X-Cart 5 license key for one of these editions." }] }
+  - { name: "You can install these updates after purchasing and activating your X-Cart 5 license key", translations: [{ code: en, label: "You can install these updates after <a href=\"{{URL}}\">purchasing</a> and activating your X-Cart 5 license key." }] }
+  - { name: "Label name", translations: [{ code: en, label: "Label name" }] }
+  - { name: "required", translations: [{ code: en, label: "required" }] }
+  - { name: "Confirm deletion", translations: [{ code: en, label: "Confirm deletion" }] }
+  - { name: "You are going to delete the X language", translations: [{ code: en, label: "You are about to delete the {{language}} language. This operation is irreversible. Are you sure you want to continue?" }] }
+  - { name: "Delete", translations: [{ code: en, label: "Delete" }] }
+  - { name: "Cancel", translations: [{ code: en, label: "Cancel" }] }
+  - { name: "X Language (Code: Y)", translations: [{ code: en, label: "{{language}} Language (Code: {{code}})" }] }
+  - { name: "Language name in X", translations: [{ code: en, label: "Language name in {{language}}" }] }
+  - { name: "Native language name", translations: [{ code: en, label: "Native language name" }] }
+  - { name: "Disable", translations: [{ code: en, label: "Disable" }] }
+  - { name: "Enable", translations: [{ code: en, label: "Enable" }] }
+  - { name: "Set this language as default for customer zone", translations: [{ code: en, label: "Set this language as default for the Customer area" }] }
+  - { name: "Disabled language can not be set as default for customer zone", translations: [{ code: en, label: "A disabled language cannot be set as default for the Customer area" }] }
+  - { name: "Delete Language", translations: [{ code: en, label: "Delete Language" }] }
+  - { name: "Edit label", translations: [{ code: en, label: "Edit label" }] }
+  - { name: "Please specify a pattern to find the required labels", translations: [{ code: en, label: "Please specify a pattern to find the required labels" }] }
+  - { name: "The module to uninstall has not been found", translations: [{ code: en, label: "Module not found. Cannot uninstall." }] }
+  - { name: "The module has been uninstalled successfully", translations: [{ code: en, label: "The module has been uninstalled successfully" }] }
+  - { name: "The X module has been installed successfully", translations: [{ code: en, label: "The {{module}} module has been uninstalled successfully" }] }
+  - { name: "The X module has been installed with errors: the DB has not been modified correctly", translations: [{ code: en, label: "The {{module}} module was installed with errors: the database was not updated correctly" }] }
+  - { name: "The X module has been installed incorrectly. Please see the logs for more information", translations: [{ code: en, label: "The {{module}} module was installed incorrectly. Please see the logs for more information." }] }
+  - { name: "The X module has been installed, but the module has a wrong module control class", translations: [{ code: en, label: "The {{module}} module has been installed; however, the module has a wrong module control class" }] }
+  - { name: "The modules have been updated", translations: [{ code: en, label: "The modules have been updated" }] }
+  - { name: "Congratulations! Your order has been placed successfully", translations: [{ code: en, label: "Congratulations! Your order has been placed.<br />You will receive your order confirmation shortly." }] }
+  - { name: "X items in bag", translations: [{ code: en, label: "{{count}} items in bag" }] }
+  - { name: "Other items", translations: [{ code: en, label: "Other items" }] }
+  - { name: "The selected shipping method has been deleted successfully", translations: [{ code: en, label: "The selected shipping method has been deleted successfully" }] }
+  - { name: "Shipping methods have been updated", translations: [{ code: en, label: "The shipping methods have been updated" }] }
+  - { name: "The selected zones have been deleted successfully", translations: [{ code: en, label: "The selected zones have been deleted successfully" }] }
+  - { name: "Zone details have been updated successfully", translations: [{ code: en, label: "Zone details have been updated successfully" }] }
+  - { name: "New zone has been created successfully", translations: [{ code: en, label: "The new zone has been created successfully" }] }
+  - { name: "This product has been added to your bag", translations: [{ code: en, label: "This product is in <a href=\"{{href}}\">your bag</a>" }] }
+  - { name: "Your shopping bag - X items", translations: [{ code: en, label: "Your shopping bag - {{count}} items" }] }
+  - { name: "Greetings, X", translations: [{ code: en, label: "Greetings, {{name}}" }] }
+  - { name: "X items", translations: [{ code: en, label: "{{count}} items" }] }
+  - { name: "_X items_ in bag", translations: [{ code: en, label: "<a href=\"#\">{{count}} items</a> in bag" }] }
+  - { name: "There is already an account with your email address. You can sign in or continue as guest", translations: [{ code: en, label: "The email you provided is already in use. You can continue as guest or <a href=\"{{URL}}\" class=\"sign-in log-in\">Sign in</a>" }] }
+  - { name: "This user name is used for an existing account. Enter another user name or sign in", translations: [{ code: en, label: "This user name is already taken. Please choose a different user name or <a href=\"{{URL}}\" class=\"log-in\">sign in</a>" }] }
+  - { name: "I accept Terms and Conditions", translations: [{ code: en, label: "I accept the <a href=\"{{URL}}\" target=\"_blank\">Terms & Conditions</a>" }] }
+  - { name: "Clicking the Place order button you accept: Terms and Conditions", translations: [{ code: en, label: "By clicking the \"Place order\" button you confirm that you accept the <a href=\"{{URL}}\">Terms & Conditions</a>" }] }
+  - { name: "Place order X", translations: [{ code: en, label: "Place order: {{total}}" }] }
+  - { name: "Proceed to payment X", translations: [{ code: en, label: "Proceed to payment: {{total}}" }] }
+  - { name: "Enter a correct email", translations: [{ code: en, label: "Enter a correct email" }] }
+  - { name: "Enter an integer", translations: [{ code: en, label: "Enter an integer" }] }
+  - { name: "Enter a number", translations: [{ code: en, label: "Enter a number" }] }
+  - { name: "Zero cannot be used", translations: [{ code: en, label: "Zero cannot be used" }] }
+  - { name: "Enter a positive number", translations: [{ code: en, label: "Enter a positive number" }] }
+  - { name: "Enter a negative number", translations: [{ code: en, label: "Enter a negative number" }] }
+  - { name: "This field is required", translations: [{ code: en, label: "This field is required" }] }
+  - { name: "X field is required", translations: [{ code: en, label: "'{{field}}' field is required" }] }
+  - { name: "Image X", translations: [{ code: en, label: "Image #{{index}}" }] }
+  - { name: "Top X products", translations: [{ code: en, label: "Top {{count}} products" }] }
+  - { name: "X module settings", translations: [{ code: en, label: "\"{{name}}\" module settings" }] }
+  - { name: "The benchmark evaluates server environment", translations: [{ code: en, label: "The benchmark evaluates server environment, namely:<br />1. File subsystem - read and write speed.<br />2. Database server - computing speed, DB data read and write speed.<br />3. Computing power - speed of computing and exchanging data in the memory.<br /><span>The total test time is the sum of the times taken by each of these tests.</span>" }] }
+  - { name: "Thank you for registering at company", translations: [{ code: en, label: "Thank you for registering at {{company}}" }] }
+  - { name: "Thank you for using company services", translations: [{ code: en, label: "Thank you for using {{company}} services" }] }
+  - { name: "Your profile has been modified. You can check your account after you log in to the site", translations: [{ code: en, label: "Your profile has been modified. To check your account, log in at {{url}}" }] }
+  - { name: "The confirmation URL link was mailed to email", translations: [{ code: en, label: "The confirmation URL link was mailed to {{email}}" }] }
+  - { name: "The email with your account information was mailed to email", translations: [{ code: en, label: "An email with your account information was sent to {{email}}. Please make sure you can log in using the received data." }] }
+  - { name: "Show filter options", translations: [{ code: en, label: "Show filter options" }] }
+  - { name: "Customer note", translations: [{ code: en, label: "Customer note" }] }
+  - { name: "Invoice X", translations: [{ code: en, label: "Invoice #{{id}}" }] }
+  - { name: "Welcome to X-Cart 5", translations: [{ code: en, label: "Welcome to X-Cart 5" }] }
+  - { name: "Quantity", translations: [{ code: en, label: "Quantity" }] }
+  - { name: "Total", translations: [{ code: en, label: "Total" }] }
+  - { name: "Cart is empty", translations: [{ code: en, label: "Cart is empty" }] }
+  - { name: "Items", translations: [{ code: en, label: "Items" }] }
+  - { name: "items", translations: [{ code: en, label: "items" }] }
+  - { name: "Checkout", translations: [{ code: en, label: "Checkout" }] }
+  - { name: "View cart", translations: [{ code: en, label: "View cart" }] }
+  - { name: "Email address", translations: [{ code: en, label: "Email address" }] }
+  - { name: "Password", translations: [{ code: en, label: "Password" }] }
+  - { name: "Recover password", translations: [{ code: en, label: "Recover password" }] }
+  - { name: "Your cart", translations: [{ code: en, label: "Your cart" }] }
+  - { name: "This is a demo store with powerful X-Cart 5 engine inside", translations: [{ code: en, label: "This is a demo store powered by X-Cart 5, using PHP5 templates technology and MySQL database." }] }
+  - { name: "Price", translations: [{ code: en, label: "Price" }] }
+  - { name: "Product name", translations: [{ code: en, label: "Product name" }] }
+  - { name: "Select one", translations: [{ code: en, label: "Select one..." }] }
+  - { name: "Other", translations: [{ code: en, label: "Other" }] }
+  - { name: "Hello, user", translations: [{ code: en, label: "Hello, {{name}}" }] }
+  - { name: "All", translations: [{ code: en, label: "All" }] }
+  - { name: "None", translations: [{ code: en, label: "None" }] }
+  - { name: "Root level", translations: [{ code: en, label: "[Root level]" }] }
+  - { name: "-- No categories --", translations: [{ code: en, label: "-- No categories --" }] }
+  - { name: "Sort by", translations: [{ code: en, label: "Sort by" }] }
+  - { name: "Pending membership", translations: [{ code: en, label: "Pending membership" }] }
+  - { name: "X results found", translations: [{ code: en, label: "{{count}} result(s) found" }] }
+  - { name: "per page", translations: [{ code: en, label: "per page" }] }
+  - { name: "X orders", translations: [{ code: en, label: "<span>{{count}}</span> orders" }] }
+  - { name: "Logged in!", translations: [{ code: en, label: "Logged in!" }] }
+  - { name: "Log off", translations: [{ code: en, label: "Log off" }] }
+  - { name: "Account settings", translations: [{ code: en, label: "Account settings" }] }
+  - { name: "User X is logged in", translations: [{ code: en, label: "User <strong>{{login}}</strong> is logged in." }] }
+  - { name: "X products found", translations: [{ code: en, label: "{{count}} products found" }] }
+  - { name: "Thank you for registering a customer account, your profile has been created successfully", translations: [{ code: en, label: "Thank you for registering a customer account.<br />As a registered customer you can enjoy a simplified checkout process and review your order history.<br /><br />A registration confirmation message with your account details has been sent to your email <b>{profile.login}</b>.<br />Please use your registration email and password every time you place orders at our store.<br /><br />You are now logged in and welcome to continue shopping." }] }
+  - { name: "BEGIN - END of TOTAL", translations: [{ code: en, label: "<span class=\"begin-record-number\">{{begin}}</span>&ndash;<span class=\"end-record-number\">{{end}}</span> of <span class=\"records-count\">{{total}}</span>" }] }
+  - { name: "X bytes", translations: [{ code: en, label: "{{value}} bytes" }] }
+  - { name: "X kB", translations: [{ code: en, label: "{{value}} kB" }] }
+  - { name: "X MB", translations: [{ code: en, label: "{{value}} MB" }] }
+  - { name: "X GB", translations: [{ code: en, label: "{{value}} GB" }] }
+  - { name: "Including X", translations: [{ code: en, label: "Including {{name}}" }] }
+  - { name: "X years", translations: [{ code: en, label: "{{years}} year(s)" }] }
+  - { name: "X months", translations: [{ code: en, label: "{{months}} month(s)" }] }
+  - { name: "X days", translations: [{ code: en, label: "{{days}} day(s)" }] }
+  - { name: "X hours", translations: [{ code: en, label: "{{hours}} hour(s)" }] }
+  - { name: "X minutes", translations: [{ code: en, label: "{{minutes}} minute(s)" }] }
+  - { name: "X seconds", translations: [{ code: en, label: "{{seconds}} second(s)" }] }
+  - { name: "Importing will overwrite the existing product information. This operation cannot be undone.", translations: [{ code: en, label: "Importing will overwrite the existing product information. This operation cannot be undone." }] }
+  - { name: "To get the format of the import data you can export your products to a file", translations: [{ code: en, label: "To find out the data format for import, you can create a sample data file <a href=\"{{url}}\">by exporting your existing products</a>. Then you can prepare the file for import using the same format." }] }
+  - { name: "Depending on the size of your data file, importing may take some time.", translations: [{ code: en, label: "Note that data import time will depend on the size of the file being imported." }] }
+  - { name: "Import mechanism does not know the field of X and it can not be imported", translations: [{ code: en, label: "Cannot import the field '{{name}}': unknown field" }] }
+  - { name: "The string is different from that of the title number of columns - X instead of Y", translations: [{ code: en, label: "String is inconsistent with the title: the number of columns is {{wrong}} instead of {{right}}" }] }
+  - { name: "Required field X is not defined or empty", translations: [{ code: en, label: "The required field '{{name}}' is not defined or empty. The product has not been created" }] }
+  - { name: "X image unable to load", translations: [{ code: en, label: "{{url}} image unable to load" }] }
+  - { name: "During the import was recorded X errors. You can get them by downloading the log files.", translations: [{ code: en, label: "During import {{count}} errors were generated. For details, <a href=\"{{url}}\">download</a> the log files." }] }
+  - { name: "Some products could have been imported incorrectly", translations: [{ code: en, label: "Some products might have been imported incorrectly. Please check your catalog. Find the ID's of such products in the import log file above." }] }
+  - { name: "Order #X, Y", translations: [{ code: en, label: "Order #{{id}}, {{date}}" }] }
+  - { name: "Order X", translations: [{ code: en, label: "Order #{{id}}" }] }
+  - { name: "The X field is empty", translations: [{ code: en, label: "The {{name}} field is empty" }] }
+  - { name: "The value of the X field must be greater than Y", translations: [{ code: en, label: "The value of the {{name}} field must be greater than {{min}}" }] }
+  - { name: "The value of the X field must be less than Y", translations: [{ code: en, label: "The value of the {{name}} field must be less than {{max}}" }] }
+  - { name: "The value of the X field has an incorrect format", translations: [{ code: en, label: "Incorrect value format in {{name}} field." }] }
+  - { name: "The value of the X field should not be longer than Y", translations: [{ code: en, label: "The value of the {{name}} field must not be longer than {{max}}" }] }
+  - { name: "To boost your sales try to use Discounts coupons, Sale, Product Advisor, Volume discounts addons. Also you may be interested in all Marketing extensions from our Marketplace", translations: [{ code: en, label: "To boost your sales, try the \"<a href=\"{{discountCoupons}}\">Coupons</a>\", \"<a href=\"{{sale}}\">Sale</a>\", \"<a href=\"{{productAdvisor}}\">Product Advisor</a>\" and \"<a href=\"{{volumeDiscounts}}\">Volume Discounts</a>\" addons. You may also be interested in other <a href=\"{{marketingTag}}\">Marketing</a> extensions from our Marketplace" }] }
+  - { name: "Trying to access the shop at X", translations: [{ code: en, label: "Trying to access the shop at <a href=\"{{url}}\">{{url}}</a> ..." }] }
+  - { name: "To fix this problem, do the following: 3 points", translations: [{ code: en, label: "To fix this problem, take the following steps: <ul><li>make sure the HTTPS protocol is enabled by your hosting service provider;</li><li>check your HTTPS settings (the \"https_host\" parameter in the \"etc/config.php\" file must be valid);</li><li>reload this page.</li></ul>" }] }
+  - { name: "You can upload the database data directly from your local computer", translations: [{ code: en, label: "To upload the database data directly from your local computer, click \"Browse\", choose an SQL dump file and click \"Upload and restore\". This method is more convenient; however, it has a file size limitation of {{N}}." }] }
+  - { name: "Alternatively, upload file sqldump.sql.php to the var/backup/ sub-directory click on the \"Restore from server\" button", translations: [{ code: en, label: "You may upload a file named sqldump.sql.php to the var/backup/ directory of your X-Cart 5 installation on the web server and click \"Restore from server\"." }] }
+  - { name: "To restore the images stored in the file system you have to copy them from the archive to the X-Cart 5 catalog", translations: [{ code: en, label: "To restore the images stored in the file system, you need to copy them from the archive to the X-Cart 5 catalog. Please mind the catalog structure." }] }
+  - { name: "Maximum size of the file to upload is N", translations: [{ code: en, label: "Maximum upload file size is {{N}}." }] }
+  - { name: "Unable to install module X because some modules, which it depends on, have not been installed or activated yet", translations: [{ code: en, label: "Unable to install the module \"{{X}}\":  required modules have not been installed or activated." }] }
+  - { name: "cannot set X permissions", translations: [{ code: en, label: "cannot set {{X}} permissions" }] }
+  - { name: "Incorrect owner of X directory", translations: [{ code: en, label: "Incorrect owner of {{X}} directory" }] }
+  - { name: "Cannot set X permissions for subdirectories:", translations: [{ code: en, label: "Cannot set {{X}} permissions for subdirectories:" }] }
+  - { name: "Incorrect owner of X file", translations: [{ code: en, label: "Incorrect owner of {{X}} file" }] }
+  - { name: "Flat shipping charge per X ordered (per Y)", translations: [{ code: en, label: "Flat shipping charge per {{X}} ordered (per {{Y}})" }] }
+  - { name: "SHIPPING = flat + ITEMS*per_item + WEIGHT*per_weight + SUBTOTAL*(% of subtotal)/100;", translations: [{ code: en, label: "SHIPPING = flat + ITEMS*per_item + WEIGHT*per_{{X}} + SUBTOTAL*(% of subtotal)/100;" }] }
+  - { name: "SHIPPING = raw on-line_rate + flat + ITEMS*per_item + WEIGHT*per_weight + SUBTOTAL*(% of subtotal)/100;", translations: [{ code: en, label: "SHIPPING = raw on-line_rate + flat + ITEMS*per_item + WEIGHT*per_{{X}} + SUBTOTAL*(% of subtotal)/100;" }] }
+  - { name: "File size exceeds the maximum size", translations: [{ code: en, label: "File size exceeds the maximum size of ({{size}})" }] }
+  - { name: "The file was not loaded because of a failure on the server", translations: [{ code: en, label: "File was not loaded due to a server side failure." }] }
+  - { name: "X items available", translations: [{ code: en, label: "{{count}} items available" }] }
+  - { name: "X product(s) has been removed", translations: [{ code: en, label: "{{count}} product(s) removed" }] }
+  - { name: "X product(s) has been created", translations: [{ code: en, label: "{{count}} product(s) created" }] }
+  - { name: "X entities has been removed", translations: [{ code: en, label: "{{count}} entities  removed" }] }
+  - { name: "X entities has been created", translations: [{ code: en, label: "{{count}} entities created" }] }
+  - { name: "Select a country or a state from a list, specify the zone", translations: [{ code: en, label: "Select a country or a state from the list, specify the zone where the country or state should be listed and click \"Apply\". To select more than one country/state, hold down the CTRL key while selecting the items. A zone must contain either countries or states. You cannot include both states and countries into the same zone." }] }
+  - { name: "If you store product images in the database, they are included in the SQL dump file", translations: [{ code: en, label: "If you store product images in the database, they are included in the SQL dump file. If the product images are located on the file system, they are not included in the SQL dump file. To back up such images you need to download them directly from the server." }] }
+  - { name: "You can choose if to download your database data", translations: [{ code: en, label: "You can choose one of the following options:<ol class=\"ordered-list\"><li>Download the database data (SQL dump) directly to your local computer - please click \"Download SQL file\" button.</li><li>Save the database data as a file on the web server (\"var/backup/sqldump.sql.php\") - please click \"Create SQL file\" button.</li></ol>" }] }
+  - { name: "Dear X", translations: [{ code: en, label: "Dear {{firstname}} {{lastname}}!" }] }
+  - { name: "Thank you for your order FOOTER", translations: [{ code: en, label: "Thank you for your business.<br />Please come back soon!" }] }
+  - { name: "Your order has failed", translations: [{ code: en, label: "Your order #{{id}} failed or was declined by the store." }] }
+  - { name: "Your order has been processed", translations: [{ code: en, label: "Your order #{{id}} has been processed." }] }
+  - { name: "Your order has been shipped", translations: [{ code: en, label: "Your order #{{id}} has been shipped." }] }
+  - { name: "percent X off", translations: [{ code: en, label: "{{percent}}% off" }] }
+  - { name: "Placed on X by Y", translations: [{ code: en, label: "Placed on <span class=\"date\">{{date}}</span> by <span class=\"name\">{{name}}</span>" }] }
+  - { name: "Placed on X by Y link", translations: [{ code: en, label: "Placed on <span class=\"date\">{{date}}</span> by <a href=\"{{url}}\" class=\"name\">{{name}}</a>" }] }
+  - { name: "Order Total X", translations: [{ code: en, label: "Order Total: <span>{{total}}</span>" }] }
+  - { name: "Payment was not finished", translations: [{ code: en, label: "Oops! Our payment system has not informed us whether your last order was paid for, or not. Is there a payment form that you have not completed yet? If so, please complete and submit it. Or you can quickly <a href=\"{{url}}\">re-order the products</a> from your last incomplete order." }] }
+  - { name: "Payment transaction X issued", translations: [{ code: en, label: "Payment transaction [method: {{trx_method}}, type: {{trx_type}}, amount: {{trx_value}}, status: {{trx_status}}]" }] }
+  - { name: "Backend payment transaction X issued", translations: [{ code: en, label: "Backend payment transaction [method: {{trx_method}}, type: {{trx_type}}, amount: {{trx_value}}, status: {{trx_status}}]" }] }
+  - { name: "Trial period X days", translations: [{ code: en, label: "Trial period &mdash; {{X}} day(s) left" }] }
+  - { name: "Your account email is X.", translations: [{ code: en, label: "Your account email is {{email}}." }] }
+  - { name: "Your account password is X.", translations: [{ code: en, label: "Your account password is {{password}}." }] }
+  - { name: "Payment methods appearance description", translations: [{ code: en, label: "Here you can define how your payment methods will look in the storefront.<br />The list below shows only enabled payment methods." }] }
+  - { name: "Watch this short video and learn the basics of how online payment processing works", translations: [{ code: en, label: "Watch this short video and learn the basics of how online payment processing works. You will also find out what to look for when choosing the best payment processing solution for your business." }] }
+  - { name: "X methods available", translations: [{ code: en, label: "{{count}} methods available" }] }
+  - { name: "Payment method has been enabled successfully", translations: [{ code: en, label: "The payment method has been enabled" }] }
+  - { name: "Payment method has been disabled successfully", translations: [{ code: en, label: "The payment method has been disabled" }] }
+  - { name: "Payment method has been removed successfully", translations: [{ code: en, label: "The payment method has been removed" }] }
+  - { name: "Duplicated clean URL: X", translations: [{ code: en, label: "Duplicated clean URL: {{value}}" }] }
+  - { name: "Attributes for X product class", translations: [{ code: en, label: "Attributes for \"{{class}}\" product class" }] }
+  - { name: "X attributes in group", translations: [{ code: en, label: "{{count}} attributes in group" }] }
+  - { name: "Order is placed", translations: [{ code: en, label: "Order {{order_number}} has been placed" }] }
+  - { name: "Order has failed", translations: [{ code: en, label: "Order {{order_number}} has failed" }] }
+  - { name: "This module is available for X-Cart hosted stores only.", translations: [{ code: en, label: "This module is available for X-Cart hosted stores only. <a href=\"{{url}}\">Click here for more information.</a>" }] }
+  - { name: "Low inventory products", translations: [{ code: en, label: "Low inventory products ({{count}})" }] }
+  - { name: "X orders on last day", translations: [{ code: en, label: "{{value}} orders yesterday" }] }
+  - { name: "X orders on last week", translations: [{ code: en, label: "{{value}} orders last week" }] }
+  - { name: "X orders on last month", translations: [{ code: en, label: "{{value}} orders last month" }] }
+  - { name: "X revenue on last day", translations: [{ code: en, label: "{{value}} yesterday" }] }
+  - { name: "X revenue on last week", translations: [{ code: en, label: "{{value}} last week" }] }
+  - { name: "X revenue on last month", translations: [{ code: en, label: "{{value}} last month" }] }
+  - { name: "No order on last day", translations: [{ code: en, label: "No orders yesterday" }] }
+  - { name: "No order on last week", translations: [{ code: en, label: "No orders last week" }] }
+  - { name: "No order on last month", translations: [{ code: en, label: "No orders last month" }] }
+  - { name: "No order on last lifetime", translations: [{ code: en, label: "No orders yet" }] }
+  - { name: "To make the online store use the secure protocol you need an SSL certificate purchased for the website domain and installed on your server.", translations: [{ code: en, label: "To use the secure protocol you need an SSL certificate purchased for the \"<span>{{domain}}</span>\" domain and installed on your server." }] }
+  - { name: "To enable secure protocol for your website pages you need a valid SSL certificate purchased for the website domain and installed on your server.", translations: [{ code: en, label: "To enable secure protocol for your website pages you need a valid SSL certificate purchased for the \"<span>{{domain}}</span>\" website domain and installed on your server." }] }
+  - { name: "Steps to complete your store for real sales", translations: [{ code: en, label: "Pre-launch checklist:" }] }
+  - { name: "X, including images and file attachments", translations: [{ code: en, label: "{{size}}, including images and file attachments" }] }
+  - { name: "About X remain", translations: [{ code: en, label: "About {{time}} remain" }] }
+  - { name: "Exported in X", translations: [{ code: en, label: "Exported on {{date}}" }] }
+  - { name: "Directory X does not have permissions to write. Please set necessary permissions to directory X.", translations: [{ code: en, label: "No write permissions to directory {{path}}. Please set the necessary permissions to directory {{path}}." }] }
+  - { name: "Failed write to file X. There may not be enough disc-space. Please check if there is enough disc-space.", translations: [{ code: en, label: "Failed write to file {{path}}. There may not be enough disk space. Please check if there is enough disk space." }] }
+  - { name: "The process of export is complete. You can follow this_link to check the results and download the files containing data.", translations: [{ code: en, label: "Export is complete. <a href=\"{{url}}\">Check results and download</a>." }] }
+  - { name: "This will increase the shipping cost by XX", translations: [{ code: en, label: "This will increase the shipping cost by {{XX}}" }] }
+  - { name: "X products", translations: [{ code: en, label: "{{count}} products" }] }
+  - { name: "Edit subcategories (X)", translations: [{ code: en, label: "Subcategories: {{count}}" }] }
+  - { name: "Manage category (X)", translations: [{ code: en, label: "Manage category: {{category_name}}" }] }
+  - { name: "Enter OrderID or email", translations: [{ code: en, label: "Enter OrderID or email" }] }
+  - { name: "All Order Statuses", translations: [{ code: en, label: "All Order Statuses" }] }
+  - { name: "Enter date range", translations: [{ code: en, label: "Enter date range" }] }
+  - { name: "Authorized", translations: [{ code: en, label: "Authorized" }] }
+  - { name: "Shipped", translations: [{ code: en, label: "Shipped" }] }
+  - { name: "Canceled", translations: [{ code: en, label: "Cancelled" }] }
+  - { name: "Expired", translations: [{ code: en, label: "Expired" }] }
+  - { name: "Refund requested", translations: [{ code: en, label: "Refund requested" }] }
+  - { name: "Refunded", translations: [{ code: en, label: "Refunded" }] }
+  - { name: "Partially refunded", translations: [{ code: en, label: "Partially refunded" }] }
+  - { name: "Selected:", translations: [{ code: en, label: "Selected:" }] }
+  - { name: "Days", translations: [{ code: en, label: "Days" }] }
+  - { name: "Close", translations: [{ code: en, label: "Close" }] }
+  - { name: "MO", translations: [{ code: en, label: "MO" }] }
+  - { name: "TU", translations: [{ code: en, label: "TU" }] }
+  - { name: "WE", translations: [{ code: en, label: "WE" }] }
+  - { name: "TH", translations: [{ code: en, label: "TH" }] }
+  - { name: "FR", translations: [{ code: en, label: "FR" }] }
+  - { name: "SA", translations: [{ code: en, label: "SA" }] }
+  - { name: "SU", translations: [{ code: en, label: "SU" }] }
+  - { name: "JANUARY", translations: [{ code: en, label: "JANUARY" }] }
+  - { name: "FEBRUARY", translations: [{ code: en, label: "FEBRUARY" }] }
+  - { name: "MARCH", translations: [{ code: en, label: "MARCH" }] }
+  - { name: "APRIL", translations: [{ code: en, label: "APRIL" }] }
+  - { name: "MAY", translations: [{ code: en, label: "MAY" }] }
+  - { name: "JUNE", translations: [{ code: en, label: "JUNE" }] }
+  - { name: "JULY", translations: [{ code: en, label: "JULY" }] }
+  - { name: "AUGUST", translations: [{ code: en, label: "AUGUST" }] }
+  - { name: "SEPTEMBER", translations: [{ code: en, label: "SEPTEMBER" }] }
+  - { name: "OCTOBER", translations: [{ code: en, label: "OCTOBER" }] }
+  - { name: "NOVEMBER", translations: [{ code: en, label: "NOVEMBER" }] }
+  - { name: "DECEMBER", translations: [{ code: en, label: "DECEMBER" }] }
+  - { name: "Shortcuts", translations: [{ code: en, label: "Shortcuts" }] }
+  - { name: "Past", translations: [{ code: en, label: "Past" }] }
+  - { name: "7days", translations: [{ code: en, label: "7days" }] }
+  - { name: "14days", translations: [{ code: en, label: "14days" }] }
+  - { name: "30days", translations: [{ code: en, label: "30days" }] }
+  - { name: "Previous", translations: [{ code: en, label: "Previous" }] }
+  - { name: "Week", translations: [{ code: en, label: "Week" }] }
+  - { name: "Month", translations: [{ code: en, label: "Month" }] }
+  - { name: "Quarter", translations: [{ code: en, label: "Quarter" }] }
+  - { name: "Year", translations: [{ code: en, label: "Year" }] }
+  - { name: "Date range should longer than %d days", translations: [{ code: en, label: "Date range should be longer than %d days" }] }
+  - { name: "Date range should less than %d days", translations: [{ code: en, label: "Date range should be less than %d days" }] }
+  - { name: "Please select a date range longer than %d days", translations: [{ code: en, label: "Please select a date range longer than %d days" }] }
+  - { name: "Please select a date range less than %d days", translations: [{ code: en, label: "Please select a date range shorter than %d days" }] }
+  - { name: "Please select a date range between %d and %d days", translations: [{ code: en, label: "Please select a date range between %d and %d days" }] }
+  - { name: "Please select a date range", translations: [{ code: en, label: "Please select a date range" }] }
+  - { name: "Enter keyword", translations: [{ code: en, label: "Enter keyword" }] }
+  - { name: "All membership levels", translations: [{ code: en, label: "All membership levels" }] }
+  - { name: "No membership", translations: [{ code: en, label: "No membership" }] }
+  - { name: "All User Types", translations: [{ code: en, label: "All User Types" }] }
+  - { name: "Please select one ...", translations: [{ code: en, label: "Please select one ..." }] }
+  - { name: "Search keywords", translations: [{ code: en, label: "Search keywords" }] }
+  - { name: "Any category", translations: [{ code: en, label: "Any category" }] }
+  - { name: "Any status", translations: [{ code: en, label: "Any status" }] }
+  - { name: "Search in", translations: [{ code: en, label: "Search in" }] }
+  - { name: "Edit labels (X)", translations: [{ code: en, label: "{{count}} label(s)" }] }
+  - { name: "This language is added by module and cannot be removed.", translations: [{ code: en, label: "This language was added by the module {{module}} and cannot be removed." }] }
+  - { name: "X languages have been removed", translations: [{ code: en, label: "{{count}} language(s) removed" }] }
+  - { name: "X language labels have been removed", translations: [{ code: en, label: "{{count}} language label(s) removed" }] }
+  - { name: "There's no payment method available", translations: [{ code: en, label: "No payment methods available. Please contact the <a href=\"mailto:{{email}}\">store administrator</a>." }] }
+  - { name: "Edit states (X)", translations: [{ code: en, label: "Edit states ({{count}})" }] }
+  - { name: "X states have been removed", translations: [{ code: en, label: "{{count}} state(s) removed" }] }
+  - { name: "X states have been successfully created", translations: [{ code: en, label: "{{count}} state(s) created" }] }
+  - { name: "X zones have been removed", translations: [{ code: en, label: "{{count}} zone(s) removed" }] }
+  - { name: "X zones have been successfully created", translations: [{ code: en, label: "{{count}} zone(s) created" }] }
+  - { name: "Default zone tooltip text", translations: [{ code: en, label: "This is the default zone which matches all possible addresses.<br />The default zone can be edited but cannot be removed." }] }
+  - { name: "Zone zipcode masks help", translations: [{ code: en, label: "Examples:<br /><br />2204%<br />38245<br />23%" }] }
+  - { name: "Zone city masks help", translations: [{ code: en, label: "Examples:<br /><br />New York<br />New%<br />%York" }] }
+  - { name: "Zone address masks help", translations: [{ code: en, label: "Examples:<br />%Water St%<br />%Coney Island%" }] }
+  - { name: "X shipping methods have been created", translations: [{ code: en, label: "{{count}} shipping method(s) created" }] }
+  - { name: "X shipping methods have been removed", translations: [{ code: en, label: "{{count}} shipping method(s) removed" }] }
+  - { name: "Edit rates (X)", translations: [{ code: en, label: "Edit rates ({{count}})" }] }
+  - { name: "Your first name", translations: [{ code: en, label: "Your first name" }] }
+  - { name: "Your last name", translations: [{ code: en, label: "Your last name" }] }
+  - { name: "1000 Example street", translations: [{ code: en, label: "1000 Example street" }] }
+  - { name: "Example city", translations: [{ code: en, label: "Example city" }] }
+  - { name: "California", translations: [{ code: en, label: "California" }] }
+  - { name: "90001", translations: [{ code: en, label: "90001" }] }
+  - { name: "+12130000000", translations: [{ code: en, label: "+12130000000" }] }
+  - { name: "email@example.com", translations: [{ code: en, label: "email@example.com" }] }
+  - { name: "Specification", translations: [{ code: en, label: "Specification" }] }
+  - { name: "To change the password, log into your company account and use the 'Modify profile' link", translations: [{ code: en, label: "To change the password, log into your company account and use the 'Modify profile' link" }] }

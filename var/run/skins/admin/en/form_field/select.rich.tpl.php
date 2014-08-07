@@ -1,0 +1,4 @@
+<select id="<?php echo func_htmlspecialchars($this->getFieldId()); ?>" name="<?php echo func_htmlspecialchars($this->getName()); ?>"<?php echo $this->getAttributesCode(); ?>>
+  <?php $optionLabel = isset($this->optionLabel) ? $this->optionLabel : null; $_foreach_var = $this->getOptions(); if (isset($_foreach_var)) { $this->optionLabelArraySize=count($_foreach_var); $this->optionLabelArrayPointer=0; } if (isset($_foreach_var)) foreach ($_foreach_var as $this->optionValue => $this->optionLabel){ $this->optionLabelArrayPointer++; ?><option  value="<?php echo func_htmlspecialchars($this->get('optionValue')); ?>" <?php if ($this->get('optionValue')==$this->getValue()) { echo 'selected="selected"'; } ?>><?php echo $this->get('optionLabel'); ?></option>
+<?php } $this->optionLabel = $optionLabel; ?>
+</select>

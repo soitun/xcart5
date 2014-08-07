@@ -1,0 +1,24 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Warning styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.restapi-warning {
+  padding-left: 76px;
+  background: transparent url(images/warn_icon.png) no-repeat 6px top;
+  width: 500px;
+  padding-bottom: 22px;
+}
+
+.restapi-warning p {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+

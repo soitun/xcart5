@@ -1,0 +1,15 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - { name: curl_cainfo, category: Environment, type: text, orderby: 110, value: '', translations: [{ code: en, option_name: "The name of a file holding one or more certificates to verify the peer with" }] }
+  - { name: curl_capath, category: Environment, type: text, orderby: 120, value: '', translations: [{ code: en, option_name: "A directory that holds multiple CA certificates" }] }
+  - { name: product_page_image_width,  category: General, type: 'XLite\View\FormField\Input\Text\Integer', orderby: 251, value: 300, widgetParameters: { min: 1 }, translations: [{ code: en, option_name: 'Maximum product image width (px)' }] }
+  - { name: product_page_image_height, category: General, type: 'XLite\View\FormField\Input\Text\Integer', orderby: 252, value: 300, widgetParameters: { min: 1 }, translations: [{ code: en, option_name: 'Maximum product image height (px)' }] }
+

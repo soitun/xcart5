@@ -1,0 +1,16 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "After you enable this tax it will be included in product prices", translations: [{ code: en, label: "VAT can be included in prices." }] }
+  - { name: "excl.VAT", translations: [{ code: en, label: "excluding {{name}}" }] }
+  - { name: "incl.VAT", translations: [{ code: en, label: "including {{name}}" }] }
+  - { name: "Select the membership level and area. for which product prices, including VAT, are defined by the shop administrator", translations: [{ code: en, label: "Select the membership level and area, for which product prices are set to include VAT. For customers from other locations or of a different membership level the included VAT will be subtracted and then recalculated.<br /><br />If your prices are defined excluding VAT, select the membership level and the area with a 0% VAT rate or with no applicable rate." }] }
+  - { name: "X VAT rates have been removed", translations: [{ code: en, label: "{{count}} VAT rate(s) removed" }] }
+  - { name: "X VAT rates have been successfully created", translations: [{ code: en, label: "{{count}} VAT rate(s) created" }] }

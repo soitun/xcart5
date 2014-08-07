@@ -1,0 +1,13 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade dump
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: 'To make the online store use the secure protocol you need an SSL certificate purchased for the website domain and installed on your server.', translations: [{ code: en, label: 'To make the online store use the secure protocol you need an SSL certificate purchased for the "<span>{{domain}}</span>" domain and installed on your server.' }] }
+  - { name: 'To enable secure protocol for your website pages you need a valid SSL certificate purchased for the website domain and installed on your server.', translations: [{ code: en, label: 'To enable secure protocol for your website pages you need a valid SSL certificate purchased for the "<span>{{domain}}</span>" website domain and installed on your server.' }] }
+

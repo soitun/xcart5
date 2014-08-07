@@ -1,0 +1,68 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Color scheme selector specific styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.skinname-value select {
+  width: 256px !important;
+}
+
+div.table-value.skinname-value {
+  float:left;
+}
+
+#skin_preview {
+  width: 250px;
+  height: 220px;
+  background: url(images/Default.png) 2px 2px no-repeat;
+  border-top: solid 1px gray;
+  border-left: solid 1px gray;
+  border-right: solid 1px #DFDFDF;
+  border-bottom: solid 1px #DFDFDF;
+  padding: 2px;
+  margin: 5px 0 15px 50px;
+  float: left;
+}
+
+#skin_preview.Digital{
+  background-image: url(images/Digital.png);
+}
+
+#skin_preview.Fashion{
+  background-image: url(images/Fashion.png);
+}
+
+#skin_preview.Noblesse{
+  background-image: url(images/Noblesse.png);
+}
+
+.buttons{
+  clear: both;
+}
+
+div.tab-content {
+  position: relative;
+}
+
+div.more-templates i {
+  font-size: 14px;
+  color: #154e9c;
+  display: none;
+}
+
+div.more-templates:hover i {
+  display: inline;
+}
+
+div.more-templates {
+  top: 50px;
+  position: absolute;
+  font-size: 16px;
+  left: 13px;
+}

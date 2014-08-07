@@ -1,0 +1,108 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * CSS classes for Saved credit cards page
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+table.saved-cards {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+table.saved-cards th {
+  font-weight: bold;
+}
+
+table.saved-cards td.default-column, 
+table.saved-cards th.default-column {
+  text-align: center;
+}
+
+table.saved-cards div.number {
+  height: 35px;
+  line-height: 35px;
+}
+
+table.saved-cards div.card-icon-container {
+  float: left;
+  height: 35px;
+  width: 70px;
+  overflow: hidden;
+}
+
+table.saved-cards div.card-icon-container img {
+  float: left;
+}  
+
+table.saved-cards span.card {
+  display: inline-block;
+  width: 140px;
+  height: 70px;
+  zoom: 0.5;
+  -moz-transform: scale(0.5);
+  -moz-transform-origin: 0 0 0;
+}
+
+table.saved-cards span.card.mc {
+  background: url(card_types.png) 0px 0px no-repeat;
+}
+
+table.saved-cards span.card.visa {
+  background: url(card_types.png) 0px -71px no-repeat;
+}
+
+table.saved-cards span.card.jcb {
+  background: url(card_types.png) 0px -141px no-repeat;
+}
+
+table.saved-cards span.card.amex {
+  background: url(card_types.png) 0px -211px no-repeat;
+}
+
+table.saved-cards span.card.dc {
+  background: url(card_types.png) 0px -281px no-repeat;
+}
+
+table.saved-cards span.card.dicl {
+  background: url(card_types.png) 0px -351px no-repeat;
+}
+
+table.saved-cards span.card.sw {
+  background: url(card_types.png) 0px -421px no-repeat;
+}
+
+table.saved-cards span.card.cup {
+  background: url(card_types.png) 0px -491px no-repeat;
+}
+
+table.saved-cards span.card.bc {
+  background: url(card_types.png) 0px -561px  no-repeat;
+}
+
+iframe#add_new_card_iframe {
+  width: 300px;
+  height: 320px;
+  border: 0px;
+}
+
+div.add-new-card-header strong.important-label {
+  color: #f0ad4e; 
+  text-transform:uppercase;
+}
+
+div.add-new-card-header strong.highlight-label {
+  text-transform:uppercase;
+}
+
+input.add-new-card-button {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+

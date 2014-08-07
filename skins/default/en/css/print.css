@@ -1,0 +1,88 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Printable page style
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.sidebar,
+.section .tabs,
+#toolbar,
+#main-menu,
+.lc-minicart,
+#search,
+#social-links,
+#header-bar,
+#header,
+#breadcrumb,
+.order-success-box .buttons-row,
+#footer-area,
+#header-area,
+.order-success-panel,
+.target-order #main .section h1.title,
+.order-box .order-statuses,
+.order-box .links,
+.order-box .tiny,
+.mobile_header,
+.mobile-hidden,
+.desctop-hidden 
+{
+  display: none;
+}
+
+#content {
+  width: 960px !important;
+  float: none;
+}
+
+.invoice-box .thank-you {
+  border: none;
+  padding-bottom: 0;
+}
+
+.invoice-box h2{
+    font-family: "Trebuchet MS", Helvetica, Jamrul, sans-serif;
+    font-weight: normal;
+    line-height: 1.1;
+    color: #579ed2;
+}
+
+.invoice-box table{
+    width: 100%;
+}
+
+.invoice-box table th {
+    border: 1px solid #cadce8;
+    font-weight: normal;
+    background-image: -webkit-linear-gradient(top, #eef8ff 0%, #e6f5ff 100%);
+    background-image: linear-gradient(to bottom, #eef8ff 0%, #e6f5ff 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeef8ff', endColorstr='#ffe6f5ff', GradientType=0);
+}
+
+
+.invoice-box  table td {
+    border: 1px solid #cadce8;
+    font-size: 12px;
+}
+
+.invoice-box .addresses li.address{
+    width: 48%;
+    margin: 0px;
+    float: left;
+    
+}
+
+.invoice-box .addresses li.address.payment-wrapping{
+    margin-left: 4%;
+}
+
+.invoice-box .thank-you{
+    float: left;
+    width: 100%;
+}
+

@@ -1,0 +1,32 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Top selling products block styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.period-box {
+  background-color: #F1F1F1;
+  height: 54px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.period-box span {
+  font-size: 14px;
+  color: #8F8F8F;
+}
+
+.period-box span.label {
+  margin-right: 5px;
+}
+
+.top-sellers .block-container .items-list-table.products .empty-list {
+  text-align: center;
+  padding: 20px;
+  display: block;
+}

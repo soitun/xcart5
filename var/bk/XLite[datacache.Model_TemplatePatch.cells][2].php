@@ -1,0 +1,1 @@
+<?php die(); ?>          0a:1:{s:3:"all";a:4:{s:7:"keyType";s:13:"attributesKey";s:5:"attrs";N;s:8:"relation";a:0:{}s:9:"converter";b:0;}}

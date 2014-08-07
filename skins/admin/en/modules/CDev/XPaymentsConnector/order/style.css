@@ -1,0 +1,108 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * CSS classes for Saved credit cards page
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+div.cell div.card-icon-container {
+  float: left;
+  height: 53px;
+  width: 105px;
+  overflow: hidden;
+}
+
+div.cell div.card-icon-container img {
+  float: left;
+}  
+
+div.cell span.card {
+  display: inline-block;
+  width: 140px;
+  height: 70px;
+  zoom: 0.75;
+  -moz-transform: scale(0.75);
+  -moz-transform-origin: 0 0 0;
+}
+
+div.cell div.number {
+  line-height: 53px !important;
+  font-size: 20px !important;
+}
+
+td.cell.card {
+    vertical-align: top !important;
+}
+
+td.cell.card.mc div.cell span.card {
+  background: url(card_types.png) 0px 0px no-repeat;
+}
+
+td.cell.card.visa div.cell span.card {
+  background: url(card_types.png) 0px -71px no-repeat;
+}
+
+td.cell.card.jcb div.cell span.card {
+  background: url(card_types.png) 0px -141px no-repeat;
+}
+
+td.cell.card.amex div.cell span.card {
+  background: url(card_types.png) 0px -211px no-repeat;
+}
+
+td.cell.card.dc div.cell span.card {
+  background: url(card_types.png) 0px -281px no-repeat;
+}
+
+td.cell.card.dicl div.cell span.card {
+  background: url(card_types.png) 0px -351px no-repeat;
+}
+
+td.cell.card.sw div.cell span.card {
+  background: url(card_types.png) 0px -421px no-repeat;
+}
+
+td.cell.card.cup div.cell span.card {
+  background: url(card_types.png) 0px -491px no-repeat;
+}
+
+td.cell.card.bc div.cell span.card {
+  background: url(card_types.png) 0px -561px  no-repeat;
+}
+
+td.cell.details div.dialog-content div.widget {
+  width: auto !important;
+}
+
+td.cell.status span.value,
+td.cell.amount span.value {
+  font-weight: bold;
+}
+
+td.cell.amount {
+    min-width: 0px !important;
+}
+
+td.cell.status.auth span.value,
+td.cell.status.sale span.value,
+td.cell.status.capture span.value,
+td.cell.status.capturepart span.value, 
+td.cell.status.capturemulti span.value{
+  color: #468847;
+}
+
+td.cell.status.void span.value,
+td.cell.status.voidpart span.value,
+td.cell.status.voidmulti span.value{
+    color: #333;
+}
+
+td.cell.status.refund span.value,
+td.cell.status.refundpart span.value,
+td.cell.status.refundmulti span.value{
+    color: #b94a48;
+}

@@ -1,0 +1,78 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Coupon form styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.coupons ul.table .table-label
+{
+  padding: 7px 0 7px 10px;
+  color: #456583;
+  white-space: normal;
+  width: 280px;
+}
+
+.coupons ul.table .table-value {
+  padding: 7px 0px;
+  width: 50%;
+}
+
+.coupons ul.table li .input-field-wrapper {
+  vertical-align: middle;
+  display: inline-block;
+  float: left;
+}
+
+.coupons div.star {
+  padding-top: 13px;
+}
+
+.coupons .uses-limit {
+  display: none;
+}
+
+.coupons .uses-limit.enabled {
+  display: block;
+}
+
+.coupons div.code-value input {
+  width: 16em;
+}
+
+.coupons div.table-value input {
+  display: inline-block;
+}
+
+.coupons div.table-value input.datepicker {
+  width: 80px;
+}
+
+.coupons div.table-value input.float {
+  width: 100px;
+}
+
+.coupons div.table-value input.integer {
+  width: 80px;
+}
+
+.coupons .wheel-mark {
+  margin-right: 0px;
+}
+
+.coupons ul li {
+  float: none;
+}
+
+.coupons div.default-section {
+  float: none;
+}
+
+.coupons select {
+  float: left;
+}
+

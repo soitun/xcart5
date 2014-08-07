@@ -1,0 +1,94 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: api_key
+    category: CDev\AustraliaPost
+    translations:
+      - code: en
+        option_name: API key
+        option_comment: 'A unique 32 character API key is used to authorise inbound requests to the APIs. To obtain an API key please visit <a href="http://auspost.com.au/devcentre">http://auspost.com.au/devcentre</a> and follow the link to create your Australia Post ID. After registration has been successfully completed you will be emailed an API key.'
+  - name: test_mode
+    category: CDev\AustraliaPost
+    type: checkbox
+    value: Y
+    translations:
+      - code: en
+        option_name: Test mode
+  - name: package_type
+    category: CDev\AustraliaPost
+    value: Parcel
+    translations:
+      - code: en
+        option_name: Package type
+  - name: package_box_type
+    category: CDev\AustraliaPost
+    value: AUS_PARCEL_TYPE_BOXED_OTH
+    translations:
+      - code: en
+        option_name: Package box type
+  - name: service_option
+    category: CDev\AustraliaPost
+    value: AUS_SERVICE_OPTION_STANDARD
+    translations:
+      - code: en
+        option_name: Service option
+  - name: extra_cover
+    category: CDev\AustraliaPost
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Extra cover type
+  - name: extra_cover_value
+    category: CDev\AustraliaPost
+    value: 0.00
+    translations:
+      - code: en
+        option_name: Extra cover value
+  - name: currency_rate
+    category: CDev\AustraliaPost
+    value: 1
+    translations:
+      - code: en
+        option_name: Currency rate
+        option_comment: (specify rate X, where 1 AUD = X in shop currency)
+  - name: width
+    category: CDev\AustraliaPost
+    value: 10
+    translations:
+      - code: en
+        option_name: Package width (mm)
+  - name: length
+    category: CDev\AustraliaPost
+    value: 10
+    translations:
+      - code: en
+        option_name: Package length (mm)
+  - name: height
+    category: CDev\AustraliaPost
+    value: 10
+    translations:
+      - code: en
+        option_name: Package height (mm)
+  - name: enable_new_methods
+    category: CDev\AustraliaPost
+    type: checkbox
+    value: Y
+    translations:
+      - code: en
+        option_name: Automatically enable new methods
+        option_comment: When AustraliaPost return shipping methods which does not exists in the available methods list, these methods will be created in the list automatically. You can specify should these methods be created as enabled and accessible customers just after they created, or these methods must be hidden from customer until you manually validate them.
+  - name: debug_enabled
+    category: CDev\AustraliaPost
+    type: checkbox
+    value: Y
+    translations:
+      - code: en
+        option_name: Log all comunications between shopping cart and AustraliaPost server

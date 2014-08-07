@@ -1,0 +1,12 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Update charset options for import/export
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - { name: cart_ttl, category: General, type: 'XLite\View\FormField\Input\Text\Integer', orderby: 395, value: 7, translations: [{ code: en, option_name: 'Cart TTL (days)', option_comment: 'Specify the number of days after which a stored shopping cart should be considered old and should be removed. Leave empty if old carts should never be removed (not recommended)' }] }
+  - { name: internal_cron_enabled, category: General, type: checkbox, orderby: 398, value: Y, translations: [{ code: en, option_name: 'Enable internal cron service', option_comment: "This setting allows you to enable/disable the use of your store's internal cron service. This service schedules the run of certain maintenance tasks for your store - like removing customers' expired shopping carts - at the periodicity of once per 100 user sessions." }] }

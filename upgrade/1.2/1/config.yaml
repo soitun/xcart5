@@ -1,0 +1,21 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade dump
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - { name: weight_symbol, category: Units, type: text, orderby: 620, value: lbs, translations: [{ code: en, option_name: 'Weight symbol' }] }
+  - { name: weight_unit, category: Units, type: 'XLite\View\FormField\Select\WeightUnit', orderby: 610, value: lbs, translations: [{ code: en, option_name: 'Weight unit' }] }
+  - { name: thousand_delim, category: Units, type: 'XLite\View\FormField\Select\ThousandDelimiter', orderby: 640, translations: [{ code: en, option_name: 'Thousands separator for float values' }] }
+  - { name: time_format, category: Units, type: 'XLite\View\FormField\Select\TimeFormat', orderby: 670, value: '%H:%M', translations: [{ code: en, option_name: 'Time format' }] }
+  - { name: time_zone, category: Units, type: 'XLite\View\FormField\Select\TimeZone', orderby: 680, translations: [{ code: en, option_name: 'Time zone' }] }
+  - { name: date_format, category: Units, type: 'XLite\View\FormField\Select\DateFormat', orderby: 660, value: '%b %e, %Y', translations: [{ code: en, option_name: 'Date format' }] }
+  - { name: decimal_delim, category: Units, type: 'XLite\View\FormField\Select\DecimalPart', orderby: 650, value: ., translations: [{ code: en, option_name: 'Decimal separator for float values' }] }
+  - { name: terms_url, category: General, type: text, orderby: 380, translations: [{ code: en, option_name: 'Terms and conditions relative URL' }] }
+  - { name: shop_closed, category: Internal, type: 'checkbox', orderby: 0, value: N }
+  - { name: use_view_cache, category: Performance, type: checkbox, orderby: 40, value: '', translations: [{ code: en, option_name: 'Use widget cache' }] }
+

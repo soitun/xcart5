@@ -1,0 +1,35 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "New to our store?", translations: [{ code: en, label: "Don't have an account yet?" }]}
+  - { name: "Go to checkout as a New customer", translations: [{ code: en, label: "Go to checkout as a New customer" }]}
+  - { name: "Subcategories for", translations: [{ code: en, label: "Subcategories for" }] }
+  - { name: "Category info", translations: [{ code: en, label: "Category info" }] }
+  - { name: 'Newest first', translations: [{ code: 'en', label: 'Newest first' }] }
+  - { name: 'Please choose the appropriate action', translations: [{ code: en, label: 'Please choose the appropriate action' }] }
+  - { name: "Price-sort-option", translations: [{ code: en, label: "Price" }] }
+  - { name: "Name-sort-option", translations: [{ code: en, label: "Name" }] }
+  - { name: "Default-sort-option", translations: [{ code: en, label: "Recommended" }] }
+  - { name: "Admin has requested a change of password for your account. Please change the password before you proceed.", translations: [{ code: en, label: "Admin has requested a change of password for your account. Please change the password before you proceed." }] }
+  - { name: "Personal info: The new password must not coincide with the current password for your account.", translations: [{ code: en, label: "The new password must not coincide with the current password for your account." }] }
+  - { name: "No Phar extension for PHP error", translations: [{ code: en, label: "PHP <a href='//php.net/phar' target='_blank'>.phar</b> extension is not enabled on your server. Here is a <a href='//kb.x-cart.com/display/XDD/Setting+up+.phar' target='_blank'>manual</a> on setting up the extension." }] }
+  - { name: "No Curl extension for PHP error", translations: [{ code: en, label: "PHP cURL extension is not enabled on your server. Here is a <a href='//kb.x-cart.com/display/XDD/Setting+up+cURL' target='_blank'>manual</a> on setting up the extension." }] }
+  - { name: "No OpenSSL extension for PHP error", translations: [{ code: en, label: "PHP openSSL extension is not enabled on your server. There is a <a href='//kb.x-cart.com/display/XDD/Setting+up+openSSL' target='_blank'>manual</a> on setting up the extension." }] }
+  - { name: "SSL Error", translations: [{ code: en, label: "Your server does not have an SSL certificate. Ask your hosting team to install an SSL certificate or create a self-signed one according to this <a href='//kb.x-cart.com/display/XDD/Creating+self-signed+SSL+certificate' target='_blank'>guide</a>." }] }
+  - { name: "Timeout error", translations: [{ code: en, label: "Previous attempt to connect to Marketplace server failed." }] }
+  - { name: "cURL error", translations: [{ code: en, label: "cURL returned an error while establishing a connection: {{error code}} {{error message}}" }] }
+  - { name: "After the problem has been fixed, try to connect again.", translations: [{ code: en, label: "After the problem has been fixed, try to <a href='{{clear_cache}}'>connect</a> again." }] }
+  - { name: "Require to change password on next log in", translations: [{ code: en, label: "Require to change password on next log in" }] }
+  - { name: "Change password", translations: [{ code: en, label: "Change password" }] }
+  - { name: "Select products from the list", translations: [{ code: en, label: "Select products from the list" }] }
+  - { name: "Package weight (X)", translations: [{ code: en, label: "Package weight ({{units}})" }] }
+  - { name: "Package subtotal (X)", translations: [{ code: en, label: "Package subtotal ({{units}})" }] }
+  - { name: "Authorization and Capture", translations: [{ code: en, label: "Authorization and Capture" }] }
+  - { name: "Authorization only", translations: [{ code: en, label: "Authorization only" }] }

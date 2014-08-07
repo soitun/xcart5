@@ -1,0 +1,24 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Cart styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.dcoupon-code-modifier .value {
+  color: #397928;
+}
+
+.discount-coupons-panel li {
+  font-size: 14px;
+  color: #53769d;
+  padding: 0px;
+  text-align: right;
+  background: transparent none;
+  padding: 2px 0px;
+  line-height: normal;
+}

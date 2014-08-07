@@ -1,0 +1,36 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Modules installation type select popup
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.install-warning-description {
+  font-size: 14px;
+  line-height: 20px;
+  width: 480px;
+  margin: 0px 0px 0px 20px;
+}
+
+ul.actions {
+  width: 400px;
+  list-style: none;
+  margin: 20px 0px 0px 110px;
+}
+
+ul.actions li {
+  float: left;
+}
+
+ul.actions li.button {
+  padding: 0px 4px 0px 10px;
+}
+
+ul.actions li.or {
+  color: #8f8f8f;
+  padding: 10px 0px 0px 0px;
+}

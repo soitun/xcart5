@@ -1,0 +1,34 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Switcher styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+div.table-value span.input-field-wrapper.switcher {
+  display: block;
+}
+
+.input-field-wrapper.switcher input {
+  display: none;
+}
+
+.input-field-wrapper.switcher .widget {
+  cursor: pointer;
+}
+
+.input-field-wrapper.switcher.enabled .widget {
+  color: #72b25b;
+}
+
+.input-field-wrapper.switcher.disabled .widget {
+  color: #bac3da;
+}
+
+.input-field-wrapper.switcher.switcher-read-only .widget {
+  cursor: default;
+}

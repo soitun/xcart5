@@ -1,0 +1,38 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Admin panel styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.admin-panel li {
+  width: 45%;
+  height: 50px;
+  float: left;
+  margin-bottom: 21px;
+}
+
+.admin-panel li .icon {
+  float: left;
+}
+
+.admin-panel li .icon img {
+  width: 46px;
+  height: 45px;
+}
+
+.admin-panel li .title,
+.admin-panel li span
+{
+  display: block;
+}
+
+.admin-panel li .title {
+  color: #294F6C;
+  font-size: 22px;
+  text-decoration: none;
+}

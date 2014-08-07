@@ -1,0 +1,22 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Form field specific styles
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.general-settings ul.table .table-label.logo-label,
+  .general-settings ul.table .table-label.favicon-label
+{
+  width: 20%;
+}
+
+.general-settings ul.table .table-value.logo-value,
+  .general-settings ul.table .table-value.favicon-value
+{
+  width: 70%;
+}

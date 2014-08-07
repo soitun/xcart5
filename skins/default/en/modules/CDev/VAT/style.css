@@ -1,0 +1,44 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * CSS classes
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.vat-note-product-price {
+/*  line-height: 30px;*/
+  font-size: 18px;
+  margin-top: 21px;
+  display: block;
+  margin-left: 6px;
+  color: #8f8f8f;
+}
+
+.products-grid .vat-note-product-price {
+  font-size: 12px;
+  margin-left: 0;
+  margin-top: 11px;
+}
+
+.list-body-sidebar .vat-note-product-price {
+  font-size: 11px;
+  margin-left: 2px;
+  margin-top: -1px;
+}
+
+.products-list .vat-note-product-price {
+  font-size: 14px;
+  margin-left: 2px;
+  margin-top: 7px;
+}
+
+table.products-table .vat-note-product-price {
+  font-size: 12px;
+  margin-left: 0px;
+  margin-top: -10px;
+}
+

@@ -1,0 +1,44 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * ____file_title____
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+@import "bootstrap-changes.less";
+@import "bootstrap-responsive.less";
+
+/* Product page */
+.product-details-tabs {
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 20px;
+  .clearfix;
+
+  div.tabs ul.tabs {
+    .nav-stacked;
+    .tabs-left;
+    .make-xs-column(12; 0);
+    .make-sm-column(4; 0);
+    .make-md-column(3; 0);
+    .make-lg-column(2; 0);
+  }
+
+  div.tabs-container {
+    .tabs-left-content;
+    .make-xs-column(12; 0);
+    .make-sm-column(8; 0);
+    .make-md-column(9; 0);
+    .make-lg-column(10; 0);
+  }
+}
+
+.has-error {
+  .tooltip {
+    display: none !important;
+  }
+}

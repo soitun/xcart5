@@ -1,0 +1,16 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Display prices in catalog including VAT", translations: [{ code: en, label: "Display prices in catalog including VAT" }] }
+  - { name: "VAT settings and rates have been updated successfully", translations: [{ code: en, label: "VAT settings and rates have been updated successfully" }] }
+  - { name: "VAT has been enabled successfully", translations: [{ code: en, label: "VAT has been enabled successfully" }] }
+  - { name: "VAT has been disabled successfully", translations: [{ code: en, label: "VAT has been disabled successfully" }] }
+  - { name: "If this option is ticked all prices in the catalog will be shown with 'inc VAT' or 'ex VAT' label depending on whether included VAT into the price or not", translations: [{ code: en, label: "If this option is enabled, all the prices in the catalog will be shown with the 'inc VAT' or 'ex VAT' label depending on whether VAT is included into the price or not. If you choose not to display this label, you will have to place information about it somewhere on the catalog pages as it must be clear for customers." }] }
+  - { name: "The name of the tax has not been preserved, because that is not filled", translations: [{ code: en, label: "The tax name was not saved because the respective field was empty" }] }

@@ -1,0 +1,23 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Specific styles for the Order details page (payment transaction IDs part)
+ *
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+.pp-transaction-ids {
+  background-color: white;
+  padding: 0 14px;
+  padding-bottom: 14px;
+  line-height: 28px;
+}
+
+.pp-transaction-ids div {
+  font-size: 11px;
+  height: 18px;
+}
+

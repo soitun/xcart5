@@ -1,0 +1,120 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data for upgrading CanadaPost module from 5.0.2 to 5.0.3 version
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Products return has been approved", translations: [{ code: en, label: "Products return {{return_number}} has been approved"}] }
+  - { name: "Products return has been rejected", translations: [{ code: en, label: "Products return {{return_number}} has been rejected"}] }
+
+XLite\Model\Config:
+  - name: pick_up_type
+    category: "XC\CanadaPost"
+    translations:
+      - code: en
+        option_name: "Shipments pick up type"
+  - name: deposit_site_num
+    category: "XC\CanadaPost"
+    translations:
+      - code: en
+        option_name: "Site number of the deposit location"
+  - name: detailed_manifests
+    category: "XC\CanadaPost"
+    translations:
+      - code: en
+        option_name: "Render detailed manifest"
+  - name: manifest_name
+    category: "XC\CanadaPost"
+    translations:
+      - code: en
+        option_name: "Contact name for the manifest address"
+  - name: signature
+    category: "XC\CanadaPost"
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Signature"
+  - name: document
+    category: "XC\CanadaPost"
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Document"
+        option_comment: "Indicates whether the shipment is a document or not."
+  - name: unpackaged
+    category: "XC\CanadaPost"
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Unpackaged"
+        option_comment: "Indicates whether a shipment is unpackaged or not. For example, auto tires may be an example of an unpackaged shipment."
+  - name: mailing_tube
+    category: "XC\CanadaPost"
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Mailing tube"
+        option_comment: "Indicates whether a shipment is contained in a mailing tube. (e.g. a poster tube)"
+  - name: oversized
+    category: "XC\CanadaPost"
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Oversized"
+        option_comment: "Indicates whether the parcel is oversized or not."
+  - name: coverage
+    category: "XC\CanadaPost"
+    value: 0.00
+    translations:
+      - code: en
+        option_name: "Coverage"
+        option_comment: "In percent of the order subtotal (0 - do not use coverage)"
+  - name: age_proof
+    category: "XC\CanadaPost"
+    translations:
+      - code: en
+        option_name: "Proof of age"
+  - name: way_to_deliver
+    category: "XC\CanadaPost"
+    translations:
+      - code: en
+        option_name: "Way to deliver"
+  - name: non_delivery
+    category: "XC\CanadaPost"
+    translations:
+      - code: en
+        option_name: "Non-delivery instructions"
+  - name: wizard_enabled
+    category: "XC\CanadaPost"
+    type: checkbox
+    value: Y
+    translations:
+      - code: en
+        option_name: "Merchant registration wizard"
+  - name: wizard_hash
+    category: "XC\CanadaPost"
+    translations:
+      - code: en
+        option_name: "Merchant registration hash"
+  - name: deliver_to_po_enabled
+    category: "XC\CanadaPost"
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: "Enable \"Deliver to Post Office\" feature"
+  - name: max_post_offices
+    category: "XC\CanadaPost"
+    value: 5
+    translations:
+      - code: en
+        option_name: "Maximum Post Offices that will be displayed"

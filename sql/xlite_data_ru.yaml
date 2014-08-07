@@ -1,0 +1,89 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Demo store (RU)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: shop_currency
+    category: General
+    value: 643
+
+  - name: default_language
+    category: General
+    value: 'ru'
+
+  - name: default_admin_language
+    category: General
+    value: 'ru'
+
+  - name: location_address
+    category: Company
+    value: '*Адрес вашей компании*'
+
+  - name: location_country
+    category: Company
+    value: RU
+
+  - name: location_state
+    category: Company
+    value: 275
+
+  - name: location_city
+    category: Company
+    value: 'Ульяновск'
+
+  - name: location_zipcode
+    category: Company
+    value: 432000
+
+  - name: company_name
+    category: Company
+    value: 'Демонстрационный магазин X-Cart'
+
+  - name: weight_unit
+    category: Units
+    value: 'kg'
+
+  - name: weight_symbol
+    category: Units
+    value: 'кг'
+
+  - name: dim_unit
+    category: Units
+    value: 'cm'
+
+  - name: dim_symbol
+    category: Units
+    value: 'см'
+
+  - name: csv_delim
+    category: Units
+    value: ';'
+
+  - name: export_import_charset
+    category: Units
+    value: 'WINDOWS-1251'
+
+  - name: anonymous_country
+    category: Shipping
+    value: RU
+
+  - name: anonymous_city
+    category: Shipping
+    value: 'Ульяновск'
+
+  - name: anonymous_zipcode
+    category: Shipping
+    value: '432000'
+
+  - name: anonymous_state
+    category: Shipping
+    value: 275
+
+XLite\Model\Language:
+  - code: en
+    enabled: false

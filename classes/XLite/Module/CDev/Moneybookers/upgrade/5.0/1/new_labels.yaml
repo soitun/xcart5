@@ -1,0 +1,17 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Email address of your Skrill account", translations: [{ code: en, label: "Email address of your Skrill account" }] }
+  - { name: "Skrill Customer ID", translations: [{ code: en, label: "Skrill Customer ID" }] }
+  - { name: "Secret Word", translations: [{ code: en, label: "Secret Word" }] }
+  - { name: "You can define an order id prefix, which would precede each order number in your shop, to make it unique (each transaction id must be unique for a Skrill account)", translations: [{ code: en, label: "You can set an order id prefix that will be added to each order number in your shop to make it unique (each transaction id must be unique for a Skrill account)" }] }
+  - { name: "This options is relevant only if you share your Skrill account with other online shops.", translations: [{ code: en, label: "This option is relevant only if you share your Skrill account with other online shops." }] }
+  - { name: "Do you have questions?", translations: [{ code: en, label: "Do you have questions?" }] }
+  - { name: "Skrill settings", translations: [{ code: en, label: "Skrill settings" }] }

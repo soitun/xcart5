@@ -1,0 +1,15 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data for core upgrading 1.0.3 -> 1.0.4
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - { name: shop_currency, category: General, type: currency, orderby: 605, value: 840, translations: [{ code: en, option_name: 'Shop currency', option_comment: '' }] }
+
+XLite\Model\LanguageLabel:
+  - { name: 'added by X', translations: [{ code: en, label: 'added by {{name}}' }] }
+  - { name: 'added by _X_', translations: [{ code: en, label: 'added by <a href="{{url}}">{{name}}</a>' }] }

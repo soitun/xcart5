@@ -1,1 +1,0 @@
-<a href="<?php echo func_htmlspecialchars($this->buildURL('addons_list_installed','pack',array('moduleId'=>$this->get('module')->getModuleId()))); ?>" class="text"><?php echo func_htmlspecialchars($this->t('Pack it')); ?></a>

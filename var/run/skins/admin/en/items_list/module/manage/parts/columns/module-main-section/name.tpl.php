@@ -1,1 +1,0 @@
-<div class="name"><a class="module-name" name="<?php echo func_htmlspecialchars($this->get('module')->getName()); ?>"><?php echo func_htmlspecialchars($this->get('module')->getModuleName()); ?></a></div>
